@@ -1,0 +1,301 @@
+\documentclass[
+  12pt,
+  a4paper,
+  twoside,
+  openright
+]{memoir}
+
+\input{preamble}
+
+\begin{document}
+
+\frontmatter
+
+\input{titlepage}
+
+\tableofcontents
+
+\etocsettocstyle{}{}
+
+\input{preface}
+
+\mainmatter
+
+\chapter{Essentials of Geometry}
+
+\localtableofcontents*
+
+{\large\bfseries Perimeter}
+
+The distance around a rectangle is called its \textbf{perimeter.}
+
+{\large\bfseries Circumference}
+
+The distance around a circle is called its \textbf{circumference.}
+
+% \settasks{
+%   label-width=0em,
+%   label=\makebox[0pt][r]{\textbf{\arabic*.}},
+%   item-indent=2em,
+% }
+
+% \begin{tasks}(4) % 3 columns
+%   \task one
+%   \task one
+%   \task one
+%   \task one
+%   \task one
+%   \task one
+%   \task one
+%   \task one
+% \end{tasks}
+
+\section{Points, Lines, and Planes}
+
+\subsection{Undefined Terms}
+
+\textbf{Undefined terms}: In geometry, the words \textit{point}, \textit{line},
+and \textit{plane} are undefined terms.
+These words do not have formal definitions, but there is agreement about
+what they mean.
+
+\textbf{Point}: A point has no dimension. It is represented by a dot.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.08\textwidth]{figures/chapter-1/point.pdf}
+	\caption*{point $A$}
+\end{figure}
+
+\textbf{Line}: A line has one dimension. It is
+represented by a line with two arrowheads,
+but it extends without end.
+
+Through any two points, there is exactly one
+line. You can use any two points on a line
+to name it.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/chapter-1/line.pdf}
+	\caption*{line \(\ell\), line \(AB\) (\(\overleftrightarrow{AB}\)),
+		or line \(BA\) (\(\overleftrightarrow{BA}\))}
+\end{figure}
+
+\textbf{Plane}: A plane has two dimensions. It is
+represented by a shape that looks like a floor
+or a wall, but it extends without end.
+
+Through any three points not on the same
+line, there is exactly one plane. You can use
+three points that are not all on the same line
+to name a plane.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/chapter-1/plane.pdf}
+	\caption*{plane \(\symbf{M}\) or plane \(ABC\)}
+\end{figure}
+
+\textbf{Collinear points}: Collinear points are points that lie on the same line.
+
+\textbf{Coplanar points}: Coplanar points are points that lie in the same plane.
+
+\begin{example}\label{exa:point}
+
+	Name points, lines, and planes
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{figures/chapter-1/example-1.pdf}
+	\end{figure}
+
+	\begin{enumerate}[]
+		\item Give two other names for \(\overleftrightarrow{PQ}\)
+
+		\item Give two other names for plane \(\symbf{R}\).
+
+		\item Name three points that are collinear.
+
+		\item Name four points that are coplanar.
+
+		\item Give two other names for \(\overleftrightarrow{ST}\) .
+
+		\item Name a point that is not coplanar with points \(Q\), \(S\), and \(T\).
+	\end{enumerate}
+
+	\begin{solution}
+		\begin{enumerate}[]
+			\item Line \(n\), \(\overleftrightarrow{QP}\).
+
+			\item Plane \(VST\), plane \(VPT\).
+
+			\item Points \(S\), \(P\), and \(T\).
+
+			\item Points \(V\), \(S\), \(P\), and \(T\).
+
+			\item Line \(m\), \(\overleftrightarrow{PT}\).
+
+			\item Point \(V\).
+		\end{enumerate}
+	\end{solution}
+\end{example}
+
+\subsection{Defined Terms}
+
+\textbf{Defined terms}: In geometry, terms that can be described using known
+words such as \textit{point} or \textit{line} are called defined terms.
+
+\textbf{Segment}: The line segment \(AB\), or segment \(AB\),
+(written as \(\overline{AB}\)) consists of the endpoints \(A\) and
+\(B\) and all points on \(\overleftrightarrow{AB}\)
+that are between \(A\) and \(B\).
+
+Note that \(\overline{AB}\) can also be named \(\overline{BA}\).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/chapter-1/segment.pdf}
+	\caption*{segment \(\overline{AB}\) or \(\overline{BA}\)}
+\end{figure}
+
+\textbf{Ray}: The ray \(AB\) (written as \(\overrightarrow{AB}\)) consists of
+the point \(A\) and all points on \(\overleftrightarrow{AB}\) that lie on the
+same side of \(A\) as \(B\).
+
+Note that \(\overrightarrow{AB}\) and \(\overrightarrow{BA}\) are different rays.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/chapter-1/ray.pdf}
+	\caption*{rays $\overrightarrow{AB}$ and $\overrightarrow{BA}$}
+\end{figure}
+
+\textbf{Opposite rays}: If point \(C\) lies on \(\overleftrightarrow{AB}\) between
+\(A\) and \(B\), then \(\overrightarrow{CA}\) and \(\overrightarrow{CB}\)
+are opposite rays.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/chapter-1/opposite-rays.pdf}
+	\caption*{opposite rays \(\overrightarrow{CA}\) and \(\overrightarrow{CB}\)}
+\end{figure}
+
+Segments and rays are collinear if they lie on the same line. So, opposite rays
+are collinear. Lines, segments, and rays are coplanar if they lie in the
+same plane.
+
+\begin{example}
+	Name segments, rays, and opposite rays
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\textwidth]{figures/chapter-1/example-2.pdf}
+	\end{figure}
+
+	\begin{enumerate}
+		\item Give another name for \(\overline{GH}\).
+
+		\item Name all rays with endpoint \(J\). Which of these rays are opposite rays?
+
+		\item Give another name for \(\overline{EF}\).
+
+		\item Are \(\overrightarrow{HJ}\) and \(\overrightarrow{JH}\)
+		      the same ray? Are \(\overrightarrow{HJ}\)
+		      and \(\overrightarrow{HG}\) the same ray?
+	\end{enumerate}
+
+	\begin{solution}
+		\begin{enumerate}
+			\item Another name for \(\overrightarrow{GH}\) is \(\overrightarrow{HG}\).
+
+			\item The rays with endpoint \(J\) are \(\overrightarrow{JE}\),
+			      \(\overrightarrow{JG}\), \(\overrightarrow{JF}\), and
+			      \(\overrightarrow{JH}\).
+
+			      The pairs of opposite rays with endpoint \(J\) are \(\overrightarrow{JE}\)
+			      and \(\overrightarrow{JF}\), and \(\overrightarrow{JG}\) and \(\overrightarrow{JH}\).
+
+			\item Another name for \(\overline{EF}\) is \(\overline{FE}\).
+
+			\item \(\overrightarrow{HJ}\) and \(\overrightarrow{JH}\) are not the same rays.
+			      \(\overrightarrow{HJ}\) includes the endpoint \(H\) and the points on
+			      \(\overleftrightarrow{HJ}\) that lie on the same side as point \(J\) while
+			      \(\overrightarrow{JH}\) includes the endpoint \(J\) and the points that lie on
+			      the same side as point \(H\).
+
+			      \(\overrightarrow{HJ}\) and \(\overrightarrow{HG}\) are the same rays
+			      since they both contain the endpoint \(H\) and all the points of the line
+			      \(\overrightarrow{HJ}\) that lie on the same side as point \(J\).
+
+		\end{enumerate}
+	\end{solution}
+\end{example}
+
+\subsection{Intersections}
+
+\textbf{Intersection}: Two or more geometric figures intersect if they have one or
+more points in common. The intersection of the figures is the set of points
+the figures have in common. Some examples of intersections are
+shown below.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/chapter-1/intersection-lines.pdf}
+	\caption*{The intersection of two different lines is a point.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/chapter-1/intersection-planes.pdf}
+	\caption*{The intersection of two different planes is a line.}
+\end{figure}
+
+\begin{example}
+	Sketch intersections of lines and planes
+
+	\begin{enumerate}
+		\item Sketch a plane and a line that is in the plane.
+
+		\item Sketch a plane and a line that does not intersect the plane.
+
+		\item Sketch a plane and a line that intersects the plane at a point.
+	\end{enumerate}
+	\begin{solution}
+		\begin{enumerate}
+			\item The line \(\ell\) is in the plane \(\symbf{M}\).
+
+			      \includegraphics[width=0.4\textwidth]{figures/chapter-1/example3-a.pdf}
+
+			\item The line \(\ell\) does not intersect the plane \(\symbf{M}\).
+
+			      \includegraphics[width=0.4\textwidth]{figures/chapter-1/example3-b.pdf}
+
+			\item The line \(\ell\) intersects the plane \(\symbf{M}\) at a point.
+
+			      \includegraphics[width=0.4\textwidth]{figures/chapter-1/example3-c.pdf}
+		\end{enumerate}
+	\end{solution}
+\end{example}
+
+\begin{example}
+	Sketch two different lines that intersect a
+	plane at the same point.
+
+	\begin{solution}
+		Lines \(l\) and \(n\) intersect the plane \(\symbf{M}\) at the same point.
+		
+		\includegraphics[width=0.4\textwidth]{figures/chapter-1/example-4.pdf}
+	\end{solution}
+\end{example}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Back Matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+
+\chapter{Appendix}
+
+\lipsum[21-22]
+
+\end{document}

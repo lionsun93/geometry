@@ -1,0 +1,111 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems,skins}
+
+% Define the Example environment
+\newtcbtheorem[
+  number within=section
+]{example}{Example}{
+  enhanced,
+  frame hidden,
+  borderline west={1pt}{0pt}{black!40},
+  coltitle=black,
+  colback=white,
+  colbacktitle=white,
+  separator sign={},
+  fonttitle=\bfseries,
+  before skip=\baselineskip,
+  after skip=\baselineskip,
+  left=0.5em,
+  right=0pt,
+  top=0pt,
+  bottom=0pt,
+  toptitle=0pt,
+  bottomtitle=0pt
+}{ex}
+
+% Solution environment
+\newenvironment{solution}
+  {\par\noindent\textbf{Solution}\par}
+  {\par\hfill\qed\par}
+
+\begin{document}
+
+\section{Geometry}
+
+\begin{example}{Pythagorean theorem}{pythagorean}
+	Find the length of the hypotenuse of a right triangle with sides
+	$3$ and $4$.
+
+	\begin{solution}
+		Using the Pythagorean theorem,
+
+		\[
+			c^2 = 3^2 + 4^2 = 25
+		\]
+
+		therefore,
+
+		\[
+			c=5.
+		\]
+	\end{solution}
+
+\end{example}
+
+
+\begin{example}{Area of a circle}{circle-area}
+	Find the area of a circle with radius $r$.
+
+	\begin{solution}
+		The formula for the area of a circle is
+
+		\[
+			A=\pi r^2.
+		\]
+
+		For $r=3$,
+
+		\[
+			A=9\pi.
+		\]
+	\end{solution}
+
+\end{example}
+
+
+\section{Algebra}
+
+\begin{example}{Solving a linear equation}{linear-equation}
+	Solve
+
+	\[
+		2x+5=13.
+	\]
+
+	\begin{solution}
+		Subtract $5$ from both sides:
+
+		\[
+			2x=8.
+		\]
+
+		Divide by $2$:
+
+		\[
+			x=4.
+		\]
+	\end{solution}
+
+\end{example}
+
+
+As shown in Example~\ref{ex:pythagorean}, the Pythagorean theorem
+can be used to find unknown sides of right triangles.
+
+\end{document}

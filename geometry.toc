@@ -1,0 +1,10 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{Contents}{i}{section*.1}%
+\contentsline {chapter}{Preface}{iii}{chapter*.3}%
+\contentsline {chapter}{\chapternumberline {1}Essentials of Geometry}{1}{chapter.1}%
+\etoc@startlocaltoc {2}
+\contentsline {section}{\numberline {1.1}Points, Lines, and Planes}{1}{section.1.1}%
+\contentsline {subsection}{Undefined Terms}{1}{section*.4}%
+\contentsline {subsection}{Defined Terms}{4}{section*.9}%
+\contentsline {subsection}{Intersections}{6}{section*.14}%
+\contentsline {chapter}{Appendix}{9}{chapter*.18}%

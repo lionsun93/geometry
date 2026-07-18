@@ -1,0 +1,80 @@
+\documentclass[border=5pt]{standalone}
+\usepackage{fontspec}
+\usepackage[dvipsnames,svgnames]{xcolor} % Extended color support
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{unicode-math}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{enumitem}
+
+\pgfplotsset{
+  compat=1.18
+}
+
+\setmainfont{Libertinus Sans}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\setmathfont{Libertinus Math}
+
+\usetikzlibrary{
+  calc,
+  positioning,
+  intersections,
+  through,
+  angles,
+  quotes,
+  arrows.meta,
+  patterns,
+  decorations.pathreplacing,
+  decorations.markings,
+  decorations.text,
+  shapes,
+  shapes.geometric,
+  matrix,
+  fit,
+  backgrounds,
+  fadings
+}
+
+\begin{document}
+\begin{tikzpicture}[>=Latex]
+	\tikzset{
+		% every path/.style={thick},
+		% every node/.style={font=\large}
+	}
+\coordinate (p1) at (0,0);
+\coordinate (p2) at ($(p1)+(1,2)$);
+\coordinate (p3) at ($(p2)+(3,0)$);
+\coordinate (p4) at ($(p3)+(-1,-2)$);
+
+\draw [fill=black!20,name path=m] (p1) -- (p2)--(p3)--(p4)--cycle;
+\node at ($(p3)+(-150:15pt)$) {$\symbf{M}$};
+
+\coordinate (l1) at (2.5,3);
+\coordinate (l2) at (1.5,-1);
+\coordinate (l3) at ($(l1)!0.5!(l2)$);
+
+\draw [draw=none,name path=l] (l1)--(l2);
+\path [name intersections={of=l and m, by={A,B}}];
+
+\coordinate (n1) at (1,2.5);
+\draw [thick,<-] (n1)--(l3);
+\draw [draw=none,name path=n] (n1)--($(n1)!2.1!(l3)$);
+\path [name intersections={of=n and m, by={C,D}}];
+\draw [dashed, thick] (l3)--(D);
+\draw [thick,->] (D)--($(l3)!1.5!(D)$);
+
+\draw [thick,<-] (l1)--(l3) node [left,pos=0.1] {$\ell$};
+\draw [thick,dashed] (l3)--(B);
+\draw [thick,->] (B)--(l2);
+
+\fill (l3) circle (2pt);
+\node at (n1) [below left] {$n$};
+\end{tikzpicture}
+
+\end{document}
+\end{document}

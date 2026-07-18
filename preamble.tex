@@ -1,0 +1,185 @@
+\usepackage{float}
+\usepackage{calc}
+\usepackage{tasks}
+\usepackage{lipsum}
+\usepackage{fontspec}                    % Load and configure OpenType/TrueType fonts (LuaLaTeX/XeLaTeX)
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}                     % Additional mathematical symbols
+\usepackage{mathtools}                   % Enhanced mathematical typesetting (loads amsmath)
+\usepackage{unicode-math}                % Unicode and OpenType math fonts
+\usepackage{microtype}                   % Improved typography and % character protrusion
+\usepackage{tikz}                        % Create vector graphics and diagrams
+\usepackage{graphicx}                    % Include and manipulate images
+\usepackage{booktabs}                    % Professional-quality tables
+\usepackage{array}                       % Extended table column formatting
+\usepackage{enumitem}                    % Customize lists and enumerations
+\usepackage{csquotes}                    % Context-sensitive quotation marks
+\usepackage[most]{tcolorbox}             % Colored and framed boxes
+\usepackage{etoolbox}                    % A toolbox of programming facilities
+\usepackage{etoc}
+\usepackage{caption}
+\usepackage[dvipsnames,svgnames]{xcolor} % Extended color support
+\usepackage{cancel}                      % Draw cancellation marks in math
+\usepackage{siunitx}                     % Typeset numbers and SI units
+\usepackage{nicematrix}                  % Enhanced matrices and arrays
+\usepackage[normalem]{ulem}              % Underline with more robust linebreak
+% \usepackage{tikz-cd}                   % Commutative diagrams with TikZ
+\usepackage{multicol}                    % Create multicolumn lists
+\usepackage{hyperref}                    % Hyperlinks, PDF metadata, and cross-references
+\usepackage{bookmark}                    % Faster and more robust PDF bookmarks
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE GEOMETRY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setstocksize{297mm}{210mm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+% \settypeblocksize{220mm}{130mm}{*}
+\setlrmarginsandblock{12mm}{12mm}{*}
+\setulmarginsandblock{24mm}{24mm}{*}
+\checkandfixthelayout
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=blue,
+	citecolor=black,
+	bookmarksdepth=3,
+	bookmarksnumbered=true,
+	bookmarksopen=true
+}
+
+\setsecnumdepth{section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defaultfontfeatures{
+	Ligatures=TeX,
+	Scale=1.4,
+}
+\setlength{\parindent}{0pt}
+\nonzeroparskip
+\linespread{1.4}
+\newfontfamily\emojifont{Noto Emoji}
+\newfontfamily\coloremojifont{Noto Color Emoji}
+\newfontfamily\notosanssymbols{Noto Sans Symbols 2}
+\setmainfont{Libertinus Sans}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\setmathfont{Libertinus Math}
+
+\captionsetup{
+	font=small
+}
+
+\setlist[itemize]{
+	label=\textbullet,
+	leftmargin=*,
+	% itemsep=0.5em,
+	% topsep=0.5em,
+	% nosep,
+}
+
+\setlist[enumerate]{
+	label=(\alph*),
+	leftmargin=1.5em,
+	% itemsep=0.5\baselineskip,
+	% topsep=0.5\baselineskip
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TCOLORBOX FRAMED BOXES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tcbuselibrary{theorems,skins}
+
+\tcbset{
+	textbookbox/.style={
+			breakable,
+			enhanced,
+			boxrule=1pt,
+			arc=2mm,
+			fonttitle=\normalsize\bfseries,
+			colback=white,
+			% toptitle=0.5em,
+			% bottomtitle=0.5em,
+			% lefttitle=1em,
+			% righttitle=1em,
+			left=0.2em,
+			right=0.2em,
+			top=1em,
+			bottom=0.5em,
+			before skip=1em,
+			after skip=1em,
+			colframe=black,
+			coltitle=black,
+			attach boxed title to top left={
+					xshift=4mm,
+					yshift=-\tcboxedtitleheight/2
+				},
+			boxed title style={
+					colback=white,
+					colframe=black,
+					boxrule=1pt,
+				}
+		}
+}
+
+% \newtcolorbox{keyconceptbox}{
+%   textbookbox,
+%   title={\emojifont\symbol{"1F511}}\enspace \MakeUppercase{Key Concept},
+%   colframe=DarkCyan,
+%   colback=DarkCyan!5
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER AND FOOTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\headerfont}{%
+	\footnotesize\sffamily
+}
+\makepagestyle{textbook}
+\makeheadrule{textbook}{\textwidth}{0pt}
+\makeevenfoot{textbook}{}{}{}
+\makeoddfoot{textbook}{}{}{}
+\makeevenhead{textbook}
+{\headerfont\thepage}
+{}
+{\headerfont\leftmark}
+\makeoddhead{textbook}
+{\headerfont\rightmark}
+{}
+{\headerfont\thepage}
+\pagestyle{textbook}
+\makepagestyle{chapterstyle}
+\makeevenhead{chapterstyle}{}{}{}
+\makeoddhead{chapterstyle}{}{}{}
+\makeheadrule{chapterstyle}{\textwidth}{0pt}
+\makeevenfoot{chapterstyle}{}{\headerfont\thepage}{}
+\makeoddfoot{chapterstyle}{}{\headerfont\thepage}{}
+\aliaspagestyle{chapter}{chapterstyle}
+\aliaspagestyle{plain}{chapterstyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CUSTOM ENVIRONMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcounter{example}[section]
+\renewcommand{\theexample}{\arabic{example}}
+
+\newenvironment{example}
+{%
+	\refstepcounter{example}%
+	\begin{tcolorbox}[
+		textbookbox,
+		title=\textbf{Example \theexample},
+	]
+}
+{\end{tcolorbox}}
+
+\newenvironment{solution}
+{\par\noindent\textbf{Solution}\par\noindent\ignorespaces}
+{\par}
