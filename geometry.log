@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  20 JUL 2026 17:37
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  20 JUL 2026 23:38
  restricted system commands enabled.
 **geometry.tex
 (./geometry.tex
@@ -73,26 +73,36 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \trimtop=\skip52
 \trimedge=\skip53
 
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip54
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/memoir/mem12.clo
 File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 luaotfload | db : Font names database loaded from /home/john/.local/opt/texlive/
 2026/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\binding=\skip54
-\spinemargin=\skip55
-\foremargin=\skip56
-\uppermargin=\skip57
-\lowermargin=\skip58
-\headdrop=\skip59
-\normalrulethickness=\skip60
-\mem@maxheadheight=\skip61
-\mem@maxfootheight=\skip62
-\headwidth=\skip63
+\binding=\skip55
+\spinemargin=\skip56
+\foremargin=\skip57
+\uppermargin=\skip58
+\lowermargin=\skip59
+\headdrop=\skip60
+\normalrulethickness=\skip61
+\mem@maxheadheight=\skip62
+\mem@maxfootheight=\skip63
+\headwidth=\skip64
 \c@storedpagenumber=\count278
 \memPD=\dimen149
-\m@mabparskip=\skip64
-\thanksmarkwidth=\skip65
-\thanksmarksep=\skip66
-\droptitle=\skip67
+\m@mabparskip=\skip65
+\thanksmarkwidth=\skip66
+\thanksmarksep=\skip67
+\droptitle=\skip68
 \c@book=\count279
 \c@part=\count280
 \c@chapter=\count281
@@ -101,69 +111,69 @@ luaotfload | db : Font names database loaded from /home/john/.local/opt/texlive/
 \c@subsubsection=\count284
 \c@paragraph=\count285
 \c@subparagraph=\count286
-\beforechapskip=\skip68
-\midchapskip=\skip69
-\afterchapskip=\skip70
-\chapindent=\skip71
-\bottomsectionskip=\skip72
-\secindent=\skip73
-\beforesecskip=\skip74
-\aftersecskip=\skip75
-\subsecindent=\skip76
-\beforesubsecskip=\skip77
-\aftersubsecskip=\skip78
-\subsubsecindent=\skip79
-\beforesubsubsecskip=\skip80
-\aftersubsubsecskip=\skip81
-\paraindent=\skip82
-\beforeparaskip=\skip83
-\afterparaskip=\skip84
-\subparaindent=\skip85
-\beforesubparaskip=\skip86
-\aftersubparaskip=\skip87
-\pfbreakskip=\skip88
+\beforechapskip=\skip69
+\midchapskip=\skip70
+\afterchapskip=\skip71
+\chapindent=\skip72
+\bottomsectionskip=\skip73
+\secindent=\skip74
+\beforesecskip=\skip75
+\aftersecskip=\skip76
+\subsecindent=\skip77
+\beforesubsecskip=\skip78
+\aftersubsecskip=\skip79
+\subsubsecindent=\skip80
+\beforesubsubsecskip=\skip81
+\aftersubsubsecskip=\skip82
+\paraindent=\skip83
+\beforeparaskip=\skip84
+\afterparaskip=\skip85
+\subparaindent=\skip86
+\beforesubparaskip=\skip87
+\aftersubparaskip=\skip88
+\pfbreakskip=\skip89
 \c@@ppsavesec=\count287
 \c@@ppsaveapp=\count288
 \ragrparindent=\dimen150
 \everylistparindent=\dimen151
-\parsepi=\skip89
-\topsepi=\skip90
-\itemsepi=\skip91
-\parsepii=\skip92
-\topsepii=\skip93
-\topsepiii=\skip94
-\itemsepii=\skip95
-\itemsepiii=\skip96
-\partopsepii=\skip97
-\partopsepiii=\skip98
-\m@msavetopsep=\skip99
-\m@msavepartopsep=\skip100
+\parsepi=\skip90
+\topsepi=\skip91
+\itemsepi=\skip92
+\parsepii=\skip93
+\topsepii=\skip94
+\topsepiii=\skip95
+\itemsepii=\skip96
+\itemsepiii=\skip97
+\partopsepii=\skip98
+\partopsepiii=\skip99
+\m@msavetopsep=\skip100
+\m@msavepartopsep=\skip101
 \@enLab=\toks17
-\abstitleskip=\skip101
-\absleftindent=\skip102
+\abstitleskip=\skip102
+\absleftindent=\skip103
 \abs@leftindent=\dimen152
-\absrightindent=\skip103
-\absparindent=\skip104
-\absparsep=\skip105
+\absrightindent=\skip104
+\absparindent=\skip105
+\absparsep=\skip106
 \c@vslineno=\count289
 \c@poemline=\count290
 \c@modulo@vs=\count291
 \c@memfvsline=\count292
-\vleftskip=\skip106
-\vrightskip=\skip107
-\stanzaskip=\skip108
-\versewidth=\skip109
-\vgap=\skip110
-\vindent=\skip111
+\vleftskip=\skip107
+\vrightskip=\skip108
+\stanzaskip=\skip109
+\versewidth=\skip110
+\vgap=\skip111
+\vindent=\skip112
 \vleftmargin=\dimen153
 \c@verse=\count293
 \c@chrsinstr=\count294
-\beforepoemtitleskip=\skip112
-\afterpoemtitleskip=\skip113
+\beforepoemtitleskip=\skip113
+\afterpoemtitleskip=\skip114
 \c@poem=\count295
-\beforePoemTitleskip=\skip114
-\midPoemTitleskip=\skip115
-\afterPoemTitleskip=\skip116
+\beforePoemTitleskip=\skip115
+\midPoemTitleskip=\skip116
+\afterPoemTitleskip=\skip117
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
@@ -171,8 +181,8 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \ar@mcellbox=\box53
 \extrarowheight=\dimen155
 \NC@list=\toks18
-\extratabsurround=\skip117
-\backup@length=\skip118
+\extratabsurround=\skip118
+\backup@length=\skip119
 \ar@cellbox=\box54
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
@@ -211,8 +221,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count300
 \@thisrulewidth=\dimen173
 )
-\ctableftskip=\skip119
-\ctabrightskip=\skip120
+\ctableftskip=\skip120
+\ctabrightskip=\skip121
 \abovecolumnspenalty=\count301
 \@linestogo=\count302
 \@cellstogo=\count303
@@ -221,15 +231,15 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@mincolumnwidth=\dimen174
 \c@newflo@tctr=\count305
 \mem@margin@floatbox=\box55
-\@contcwidth=\skip121
-\@contindw=\skip122
-\abovecaptionskip=\skip123
-\belowcaptionskip=\skip124
-\subfloattopskip=\skip125
-\subfloatcapskip=\skip126
-\subfloatcaptopadj=\skip127
-\subfloatbottomskip=\skip128
-\subfloatlabelskip=\skip129
+\@contcwidth=\skip122
+\@contindw=\skip123
+\abovecaptionskip=\skip124
+\belowcaptionskip=\skip125
+\subfloattopskip=\skip126
+\subfloatcapskip=\skip127
+\subfloatcaptopadj=\skip128
+\subfloatbottomskip=\skip129
+\subfloatlabelskip=\skip130
 \subfloatcapmargin=\dimen175
 \c@@contsubnum=\count306
 \m@mscap@capbox=\box56
@@ -241,10 +251,10 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \sidecapraise=\dimen180
 \m@mscapmainwidth=\dimen181
 \m@mscaplkern=\dimen182
-\beforeepigraphskip=\skip130
-\afterepigraphskip=\skip131
-\epigraphwidth=\skip132
-\epigraphrule=\skip133
+\beforeepigraphskip=\skip131
+\afterepigraphskip=\skip132
+\epigraphwidth=\skip133
+\epigraphrule=\skip134
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
@@ -275,74 +285,74 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 \c@section@level=\count307
 )
-\tocentryskip=\skip134
-\tocbaseline=\skip135
-\cftparskip=\skip136
-\cftbeforebookskip=\skip137
+\tocentryskip=\skip135
+\tocbaseline=\skip136
+\cftparskip=\skip137
+\cftbeforebookskip=\skip138
 \cftbookindent=\dimen183
 \cftbooknumwidth=\dimen184
-\cftbeforepartskip=\skip138
-\cftpartindent=\skip139
-\cftpartnumwidth=\skip140
-\cftbeforechapterskip=\skip141
-\cftchapterindent=\skip142
-\cftchapternumwidth=\skip143
-\cftbeforesectionskip=\skip144
-\cftsectionindent=\skip145
-\cftsectionnumwidth=\skip146
-\cftbeforesubsectionskip=\skip147
-\cftsubsectionindent=\skip148
-\cftsubsectionnumwidth=\skip149
-\cftbeforesubsubsectionskip=\skip150
-\cftsubsubsectionindent=\skip151
-\cftsubsubsectionnumwidth=\skip152
-\cftbeforeparagraphskip=\skip153
-\cftparagraphindent=\skip154
-\cftparagraphnumwidth=\skip155
-\cftbeforesubparagraphskip=\skip156
-\cftsubparagraphindent=\skip157
-\cftsubparagraphnumwidth=\skip158
+\cftbeforepartskip=\skip139
+\cftpartindent=\skip140
+\cftpartnumwidth=\skip141
+\cftbeforechapterskip=\skip142
+\cftchapterindent=\skip143
+\cftchapternumwidth=\skip144
+\cftbeforesectionskip=\skip145
+\cftsectionindent=\skip146
+\cftsectionnumwidth=\skip147
+\cftbeforesubsectionskip=\skip148
+\cftsubsectionindent=\skip149
+\cftsubsectionnumwidth=\skip150
+\cftbeforesubsubsectionskip=\skip151
+\cftsubsubsectionindent=\skip152
+\cftsubsubsectionnumwidth=\skip153
+\cftbeforeparagraphskip=\skip154
+\cftparagraphindent=\skip155
+\cftparagraphnumwidth=\skip156
+\cftbeforesubparagraphskip=\skip157
+\cftsubparagraphindent=\skip158
+\cftsubparagraphnumwidth=\skip159
 \prechapterprecisshift=\dimen185
 \c@maxsecnumdepth=\count308
 \bibindent=\dimen186
-\bibitemsep=\skip159
-\indexcolsep=\skip160
-\indexrule=\skip161
+\bibitemsep=\skip160
+\indexcolsep=\skip161
+\indexrule=\skip162
 \indexmarkstyle=\toks22
 \@indexbox=\insert252
 LaTeX Info: Redefining \raggedbottom on input line 8095.
 LaTeX Info: Redefining \flushbottom on input line 8099.
 \glossarycolsep=\dimen187
 \glossaryrule=\dimen188
-\sideparvshift=\skip162
+\sideparvshift=\skip163
 \sideins=\insert251
-\sidebartopsep=\skip163
-\sidebarhsep=\skip164
-\sidebarvsep=\skip165
-\sidebarwidth=\skip166
-\footmarkwidth=\skip167
-\footmarksep=\skip168
-\footparindent=\skip169
-\footinsdim=\skip170
+\sidebartopsep=\skip164
+\sidebarhsep=\skip165
+\sidebarvsep=\skip166
+\sidebarwidth=\skip167
+\footmarkwidth=\skip168
+\footmarksep=\skip169
+\footparindent=\skip170
+\footinsdim=\skip171
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
 \m@m@k=\count309
 \m@m@h=\dimen189
-\m@mipn@skip=\skip171
+\m@mipn@skip=\skip172
 \sidefootins=\insert248
-\sidefootadjust=\skip172
-\sidefootheight=\skip173
-\sidefoothsep=\skip174
-\sidefootvsep=\skip175
-\sidefootwidth=\skip176
-\m@mdownsf=\skip177
+\sidefootadjust=\skip173
+\sidefootheight=\skip174
+\sidefoothsep=\skip175
+\sidefootvsep=\skip176
+\sidefootwidth=\skip177
+\m@mdownsf=\skip178
 \c@sidefootnote=\count310
-\sidefootmarkwidth=\skip178
-\sidefootmarksep=\skip179
-\sidefootparindent=\skip180
+\sidefootmarkwidth=\skip179
+\sidefootmarksep=\skip180
+\sidefootparindent=\skip181
 \c@pagenote=\count311
 \c@pagenoteshadow=\count312
-\mem@pn@lastkern=\skip181
+\mem@pn@lastkern=\skip182
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
@@ -350,17 +360,17 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks24
 \verbatim@in@stream=\read2
 )
-\verbatimindent=\skip182
+\verbatimindent=\skip183
 \verbatim@out=\write3
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/base/shortvrb.sty
 Package: shortvrb 2026-03-13 v3.0r Standard LaTeX documentation package V3 (FMi
 )
 )
-\bvboxsep=\skip183
+\bvboxsep=\skip184
 \c@memfbvline=\count313
 \c@bvlinectr=\count314
-\bvnumlength=\skip184
+\bvnumlength=\skip185
 \fb@frw=\dimen190
 \fb@frh=\dimen191
 \FrameRule=\dimen192
@@ -382,14 +392,14 @@ Package: shortvrb 2026-03-13 v3.0r Standard LaTeX documentation package V3 (FMi
 \c@lastpage=\count329
 \c@figure=\count330
 \c@lofdepth=\count331
-\cftbeforefigureskip=\skip185
-\cftfigureindent=\skip186
-\cftfigurenumwidth=\skip187
+\cftbeforefigureskip=\skip186
+\cftfigureindent=\skip187
+\cftfigurenumwidth=\skip188
 \c@table=\count332
 \c@lotdepth=\count333
-\cftbeforetableskip=\skip188
-\cfttableindent=\skip189
-\cfttablenumwidth=\skip190
+\cftbeforetableskip=\skip189
+\cfttableindent=\skip190
+\cfttablenumwidth=\skip191
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
@@ -433,12 +443,12 @@ Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count336
 \calc@Adimen=\dimen194
 \calc@Bdimen=\dimen195
-\calc@Askip=\skip191
-\calc@Bskip=\skip192
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count337
-\calc@Cskip=\skip193
+\calc@Cskip=\skip194
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tasks/tasks.sty
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/x
@@ -464,10 +474,10 @@ Package: tasks 2022/01/08 v1.4a lists with columns filled horizontally
 \l__tasks_column_sep_dim=\dimen259
 \l__tasks_correction_dim=\dimen260
 \l__tasks_full_width_dim=\dimen261
-\l__tasks_after_item_skip=\skip194
-\l__tasks_custom_after_item_skip=\skip195
-\l__tasks_before_list_skip=\skip196
-\l__tasks_after_list_skip=\skip197
+\l__tasks_after_item_skip=\skip195
+\l__tasks_custom_after_item_skip=\skip196
+\l__tasks_before_list_skip=\skip197
+\l__tasks_after_list_skip=\skip198
 \l__tasks_item_coffin=\box60
 \l__tasks_label_coffin=\box61
 \c@task=\count346
@@ -521,7 +531,7 @@ Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg))
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2026/05/19 v2.18d AMS math features
-\@mathmargin=\skip198
+\@mathmargin=\skip199
 For additional information on amsmath, use the `?' option.
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
@@ -580,8 +590,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen272
 \lineht@=\dimen273
 \@envbody=\toks30
-\multlinegap=\skip199
-\multlinetaggap=\skip256
+\multlinegap=\skip256
+\multlinetaggap=\skip257
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
@@ -593,9 +603,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks34
 \thm@notefont=\toks35
 \thm@headpunct=\toks36
-\thm@preskip=\skip257
-\thm@postskip=\skip258
-\thm@headsep=\skip259
+\thm@preskip=\skip258
+\thm@postskip=\skip259
+\thm@headsep=\skip260
 \dth@everypar=\toks37
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -618,7 +628,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count375
 \l_MT_multwidth_dim=\dimen274
-\origjot=\skip260
+\origjot=\skip261
 \l_MT_shortvdotswithinadjustabove_dim=\dimen275
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen276
 \l_MT_above_intertext_sep=\dimen277
@@ -935,7 +945,7 @@ Lua module: microtype 2026/03/01 v3.2d microtype module.
 Module microtype Info: overwriting function `keepligature' on input line 63
 LaTeX Info: Redefining \lsstyle on input line 779.
 LaTeX Info: Redefining \lslig on input line 779.
-\MT@outer@space=\skip261
+\MT@outer@space=\skip262
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1293,7 +1303,7 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip262
+\labelindent=\skip263
 \enit@outerparindent=\dimen335
 \enit@toks=\toks52
 \enit@inbox=\box79
@@ -1487,8 +1497,8 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \page@free=\dimen348
 \premulticols=\dimen349
 \postmulticols=\dimen350
-\multicolsep=\skip263
-\multicolbaselineskip=\skip264
+\multicolsep=\skip264
+\multicolbaselineskip=\skip265
 \partial@page=\box96
 \last@line=\box97
 \mc@boxedresult=\box98
@@ -1710,7 +1720,7 @@ Package: nicematrix 2026/07/14 v7.11 Enhanced arrays with the help of PGF/TikZ
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box152
 \UL@hyphenbox=\box153
-\UL@skip=\skip265
+\UL@skip=\skip266
 \UL@hook=\toks56
 \UL@height=\dimen422
 \UL@pe=\count491
@@ -1817,7 +1827,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip266
+\Hy@SectionHShift=\skip267
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
@@ -2099,15 +2109,15 @@ Package fontspec Info:
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LibertinusSans(1)/m/n on input line 
-74.
+77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LibertinusSans(1)/m/it on input lin
-e 74.
+e 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusSans(1)/b/n on input line
- 74.
+ 77.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 74.
+(Font)              scaled to size 16.79993pt on input line 77.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Sans scale = 1.4.
@@ -2118,10 +2128,10 @@ Package fontspec Info:
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LibertinusSans(1)/m/n on input line
- 75.
+ 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LibertinusSans(1)/b/n on input lin
-e 75.
+e 78.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Mono scale = 1.4.
@@ -2197,10 +2207,10 @@ Package fontspec Info:
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/m/n on input line
- 76.
+ 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/b/n on input line
- 76.
+ 79.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Math scale = 1.4.
@@ -2231,7 +2241,7 @@ Package fontspec Info:
 imen=xetex;"
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(0)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 77.
+(Font)              scaled to size 16.79993pt on input line 80.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Math scale = 1.4.
@@ -2277,17 +2287,17 @@ imen=xetex;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
 imen=xetex;+ssty=1;"
 
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 77.
+(Font)              scaled to size 16.79993pt on input line 80.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
+(Font)              `operators' in the math version `normal' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 
-77.
+80.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
+(Font)              `operators' in the math version `bold' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line
- 77.
+ 80.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Math scale = 1.4.
@@ -2333,15 +2343,15 @@ imen=xetex;mathfontdimen=tex2;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
 imen=xetex;mathfontdimen=tex2;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 77.
+(Font)              `symbols' in the math version `normal' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line
- 77.
+ 80.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 77.
+(Font)              `symbols' in the math version `bold' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line
- 77.
+ 80.
 
 Package fontspec Info: 
 (fontspec)             Libertinus Math scale = 1.4.
@@ -2387,39 +2397,39 @@ imen=xetex;mathfontdimen=tex3;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
 imen=xetex;mathfontdimen=tex3;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 7
-7.
+(Font)              `largesymbols' in the math version `normal' on input line 8
+0.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line
- 77.
+ 80.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 77.
+(Font)              `largesymbols' in the math version `bold' on input line 80.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line
- 77.
+ 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 77.
+(Font)              scaled to size 13.43994pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 77.
+(Font)              scaled to size 10.07994pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 77.
+(Font)              scaled to size 16.79993pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 77.
+(Font)              scaled to size 13.43994pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 77.
+(Font)              scaled to size 10.07994pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 77.
+(Font)              scaled to size 16.79993pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 77.
+(Font)              scaled to size 13.43994pt on input line 80.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 77.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+(Font)              scaled to size 10.07994pt on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
 
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2434,26 +2444,26 @@ Package csquotes Info: ... none found.
 (./geometry.aux)
 \openout1 = geometry.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 
 Package unicode-math Warning: Using \overbracket and \underbracket from
@@ -2473,13 +2483,13 @@ Package unicode-math Warning: I'm going to overwrite the following commands
 (unicode-math)                colon-like commands, using them will lead to
 (unicode-math)                inconsistencies.
 
-LaTeX Info: Redefining \microtypecontext on input line 10.
-Package microtype Info: Applying patch `item' on input line 10.
-Package microtype Info: Applying patch `toc' on input line 10.
-Package microtype Info: Applying patch `eqnum' on input line 10.
-Package microtype Info: Applying patch `footnote' on input line 10.
-Package microtype Info: Applying patch `verbatim' on input line 10.
-LaTeX Info: Redefining \microtypesetup on input line 10.
+LaTeX Info: Redefining \microtypecontext on input line 11.
+Package microtype Info: Applying patch `item' on input line 11.
+Package microtype Info: Applying patch `toc' on input line 11.
+Package microtype Info: Applying patch `eqnum' on input line 11.
+Package microtype Info: Applying patch `footnote' on input line 11.
+Package microtype Info: Applying patch `verbatim' on input line 11.
+LaTeX Info: Redefining \microtypesetup on input line 11.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2537,7 +2547,7 @@ Package caption Info: End \AtBeginDocument code.
 \enitdp@tabularnotes=\count515
 \c@tabularnotes*i=\count516
 \enitdp@tabularnotes*=\count517
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
  (./titlepage.tex
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
 (Font)              scaled to size 34.83185pt on input line 7.
@@ -2554,9 +2564,9 @@ LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
 
 \openout5 = geometry.toc
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 34.83185pt on input line 17.
+(Font)              scaled to size 34.83185pt on input line 18.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 16.79993pt on input line 17.
+(Font)              scaled to size 16.79993pt on input line 18.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2578,43 +2588,43 @@ LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 20.1599pt on input line 28.
+(Font)              scaled to size 20.1599pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 20.1599pt on input line 28.
+(Font)              scaled to size 20.1599pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 24.19188pt on input line 53.
+(Font)              scaled to size 24.19188pt on input line 54.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/it' will be
-(Font)              scaled to size 16.79993pt on input line 57.
+(Font)              scaled to size 16.79993pt on input line 58.
 <figures/1/1-1.pdf, id=87, 17.396pt x 16.96638pt>
 File: figures/1/1-1.pdf Graphic file (type pdf)
 <use figures/1/1-1.pdf>
-Package luatex.def Info: figures/1/1-1.pdf  used on input line 66.
+Package luatex.def Info: figures/1/1-1.pdf  used on input line 67.
 (luatex.def)             Requested size: 42.32097pt x 41.27907pt.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 67.
+(Font)              scaled to size 15.32993pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 67.
+(Font)              scaled to size 15.32993pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 67.
+(Font)              scaled to size 11.19995pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 67.
+(Font)              scaled to size 8.39996pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 67.
+(Font)              scaled to size 15.32993pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 67.
+(Font)              scaled to size 11.19995pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 67.
+(Font)              scaled to size 8.39996pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 67.
+(Font)              scaled to size 15.32993pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 67.
+(Font)              scaled to size 11.19995pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 67.
+(Font)              scaled to size 8.39996pt on input line 68.
 <figures/1/1-2.pdf, id=88, 178.15459pt x 72.57112pt>
 File: figures/1/1-2.pdf Graphic file (type pdf)
 <use figures/1/1-2.pdf>
-Package luatex.def Info: figures/1/1-2.pdf  used on input line 80.
-(luatex.def)             Requested size: 264.5pt x 107.76123pt.
+Package luatex.def Info: figures/1/1-2.pdf  used on input line 81.
+(luatex.def)             Requested size: 185.15323pt x 75.42677pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
@@ -2623,92 +2633,122 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 <figures/1/1-3.pdf, id=108, 146.66394pt x 61.30504pt>
 File: figures/1/1-3.pdf Graphic file (type pdf)
 <use figures/1/1-3.pdf>
-Package luatex.def Info: figures/1/1-3.pdf  used on input line 95.
-(luatex.def)             Requested size: 211.59677pt x 88.45036pt.
+Package luatex.def Info: figures/1/1-3.pdf  used on input line 96.
+(luatex.def)             Requested size: 185.15323pt x 77.39722pt.
 <figures/1/1-4.pdf, id=109, 195.3428pt x 129.7889pt>
 File: figures/1/1-4.pdf Graphic file (type pdf)
 <use figures/1/1-4.pdf>
-Package luatex.def Info: figures/1/1-4.pdf  used on input line 110.
-(luatex.def)             Requested size: 308.75691pt x 205.1731pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Package luatex.def Info: figures/1/1-4.pdf  used on input line 111.
+(luatex.def)             Requested size: 205.8327pt x 136.76753pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2<./figures/1/1-2.pdf><./figures/1/1-3.pdf>]
-<figures/1/1-5.pdf, id=136, 124.7079pt x 39.66217pt>
+[2<./figures/1/1-2.pdf><./figures/1/1-3.pdf><./figures/1/1-4.pdf>]
+<figures/1/1-5.pdf, id=148, 124.7079pt x 39.66217pt>
 File: figures/1/1-5.pdf Graphic file (type pdf)
 <use figures/1/1-5.pdf>
-Package luatex.def Info: figures/1/1-5.pdf  used on input line 152.
-(luatex.def)             Requested size: 211.59677pt x 67.29826pt.
-
-Underfull \vbox (badness 2351) has occurred while \output is active []
-
- [3<./figures/1/1-4.pdf>]
-<figures/1/1-6.pdf, id=161, 124.61055pt x 82.34062pt>
+Package luatex.def Info: figures/1/1-5.pdf  used on input line 153.
+(luatex.def)             Requested size: 185.15323pt x 58.88786pt.
+<figures/1/1-6.pdf, id=149, 124.61055pt x 82.34062pt>
 File: figures/1/1-6.pdf Graphic file (type pdf)
 <use figures/1/1-6.pdf>
-Package luatex.def Info: figures/1/1-6.pdf  used on input line 165.
-(luatex.def)             Requested size: 211.59677pt x 139.82013pt.
-<figures/1/1-7.pdf, id=162, 153.06384pt x 26.02121pt>
+Package luatex.def Info: figures/1/1-6.pdf  used on input line 166.
+(luatex.def)             Requested size: 185.15323pt x 122.3459pt.
+
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+ [3<./figures/1/1-5.pdf>]
+<figures/1/1-7.pdf, id=181, 153.06384pt x 26.02121pt>
 File: figures/1/1-7.pdf Graphic file (type pdf)
 <use figures/1/1-7.pdf>
-Package luatex.def Info: figures/1/1-7.pdf  used on input line 176.
-(luatex.def)             Requested size: 264.5pt x 44.96562pt.
-<figures/1/1-8.pdf, id=163, 124.61154pt x 60.93465pt>
+Package luatex.def Info: figures/1/1-7.pdf  used on input line 177.
+(luatex.def)             Requested size: 211.59677pt x 35.97202pt.
+<figures/1/1-8.pdf, id=182, 124.61154pt x 60.93465pt>
 File: figures/1/1-8.pdf Graphic file (type pdf)
 <use figures/1/1-8.pdf>
-Package luatex.def Info: figures/1/1-8.pdf  used on input line 189.
-(luatex.def)             Requested size: 205.8327pt x 100.65218pt.
- [4<./figures/1/1-5.pdf><./figures/1/1-6.pdf><./figures/1/1-7.pdf>]
-<figures/1/1-9.pdf, id=217, 102.66154pt x 53.47879pt>
+Package luatex.def Info: figures/1/1-8.pdf  used on input line 190.
+(luatex.def)             Requested size: 180.1095pt x 88.07402pt.
+ [4<./figures/1/1-6.pdf><./figures/1/1-7.pdf><./figures/1/1-8.pdf>]
+<figures/1/1-9.pdf, id=231, 102.66154pt x 53.47879pt>
 File: figures/1/1-9.pdf Graphic file (type pdf)
 <use figures/1/1-9.pdf>
-Package luatex.def Info: figures/1/1-9.pdf  used on input line 227.
-(luatex.def)             Requested size: 211.59677pt x 110.23032pt.
-<figures/1/1-10.pdf, id=218, 181.21602pt x 166.98987pt>
+Package luatex.def Info: figures/1/1-9.pdf  used on input line 239.
+(luatex.def)             Requested size: 185.15323pt x 96.4551pt.
+<figures/1/1-10.pdf, id=232, 181.21602pt x 166.98987pt>
 File: figures/1/1-10.pdf Graphic file (type pdf)
 <use figures/1/1-10.pdf>
-Package luatex.def Info: figures/1/1-10.pdf  used on input line 233.
-(luatex.def)             Requested size: 211.59677pt x 194.9977pt.
-
-Underfull \vbox (badness 3623) has occurred while \output is active []
-
- [5<./figures/1/1-8.pdf><./figures/1/1-9.pdf>]
-<figures/1/1-11.pdf, id=251, 124.21104pt x 67.30545pt>
+Package luatex.def Info: figures/1/1-10.pdf  used on input line 239.
+(luatex.def)             Requested size: 185.15323pt x 170.62807pt.
+<figures/1/1-11.pdf, id=233, 124.21104pt x 67.30545pt>
 File: figures/1/1-11.pdf Graphic file (type pdf)
 <use figures/1/1-11.pdf>
-Package luatex.def Info: figures/1/1-11.pdf  used on input line 251.
-(luatex.def)             Requested size: 205.8327pt x 111.53906pt.
-<figures/1/1-12.pdf, id=252, 124.21104pt x 94.59741pt>
+Package luatex.def Info: figures/1/1-11.pdf  used on input line 255.
+(luatex.def)             Requested size: 154.37845pt x 83.65712pt.
+<figures/1/1-12.pdf, id=234, 124.21104pt x 94.59741pt>
 File: figures/1/1-12.pdf Graphic file (type pdf)
 <use figures/1/1-12.pdf>
-Package luatex.def Info: figures/1/1-12.pdf  used on input line 255.
-(luatex.def)             Requested size: 205.8327pt x 156.76749pt.
-<figures/1/1-13.pdf, id=253, 124.21104pt x 124.95282pt>
+Package luatex.def Info: figures/1/1-12.pdf  used on input line 259.
+(luatex.def)             Requested size: 154.37845pt x 117.57959pt.
+<figures/1/1-13.pdf, id=235, 124.21104pt x 124.95282pt>
 File: figures/1/1-13.pdf Graphic file (type pdf)
 <use figures/1/1-13.pdf>
-Package luatex.def Info: figures/1/1-13.pdf  used on input line 259.
-(luatex.def)             Requested size: 205.8327pt x 207.0727pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6<./figures/1/1-10.pdf><./figures/1/1-11.pdf>]
-<figures/1/1-14.pdf, id=285, 121.66855pt x 72.07126pt>
+Package luatex.def Info: figures/1/1-13.pdf  used on input line 263.
+(luatex.def)             Requested size: 154.37845pt x 155.30975pt.
+ [5<./figures/1/1-9.pdf><./figures/1/1-10.pdf>]
+<figures/1/1-14.pdf, id=268, 121.66855pt x 72.07126pt>
 File: figures/1/1-14.pdf Graphic file (type pdf)
 <use figures/1/1-14.pdf>
-Package luatex.def Info: figures/1/1-14.pdf  used on input line 282.
-(luatex.def)             Requested size: 257.29482pt x 152.42522pt.
+Package luatex.def Info: figures/1/1-14.pdf  used on input line 286.
+(luatex.def)             Requested size: 205.8327pt x 121.93774pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7<./figures/1/1-12.pdf><./figures/1/1-13.pdf>]
-<figures/1/2-1.pdf, id=313, 116.61166pt x 84.79178pt>
+ [6<./figures/1/1-11.pdf><./figures/1/1-12.pdf><./figures/1/1-13.pdf>]
+<figures/1/2-1.pdf, id=306, 116.61166pt x 84.79178pt>
 File: figures/1/2-1.pdf Graphic file (type pdf)
 <use figures/1/2-1.pdf>
-Package luatex.def Info: figures/1/2-1.pdf  used on input line 305.
-(luatex.def)             Requested size: 205.8327pt x 149.6687pt.
- [8<./figures/1/1-14.pdf><./figures/1/2-1.pdf>]
+Package luatex.def Info: figures/1/2-1.pdf  used on input line 309.
+(luatex.def)             Requested size: 180.1095pt x 130.96399pt.
+<figures/1/2-2.pdf, id=307, 116.61166pt x 45.9577pt>
+File: figures/1/2-2.pdf Graphic file (type pdf)
+<use figures/1/2-2.pdf>
+Package luatex.def Info: figures/1/2-2.pdf  used on input line 318.
+(luatex.def)             Requested size: 180.1095pt x 70.98334pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7<./figures/1/1-14.pdf><./figures/1/2-1.pdf>]
+<figures/1/2-3.pdf, id=350, 139.3737pt x 52.85446pt>
+File: figures/1/2-3.pdf Graphic file (type pdf)
+<use figures/1/2-3.pdf>
+Package luatex.def Info: figures/1/2-3.pdf  used on input line 343.
+(luatex.def)             Requested size: 185.15323pt x 70.22212pt.
+<figures/1/2-4.pdf, id=351, 139.3737pt x 52.76413pt>
+File: figures/1/2-4.pdf Graphic file (type pdf)
+<use figures/1/2-4.pdf>
+Package luatex.def Info: figures/1/2-4.pdf  used on input line 343.
+(luatex.def)             Requested size: 185.15323pt x 70.10211pt.
+<figures/1/2-5.pdf, id=352, 146.80045pt x 53.0pt>
+File: figures/1/2-5.pdf Graphic file (type pdf)
+<use figures/1/2-5.pdf>
+Package luatex.def Info: figures/1/2-5.pdf  used on input line 353.
+(luatex.def)             Requested size: 180.1095pt x 65.02704pt.
+<figures/1/2-6.pdf, id=353, 146.80045pt x 53.0pt>
+File: figures/1/2-6.pdf Graphic file (type pdf)
+<use figures/1/2-6.pdf>
+Package luatex.def Info: figures/1/2-6.pdf  used on input line 364.
+(luatex.def)             Requested size: 180.1095pt x 65.02704pt.
+LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
+(Font)              scaled to size 13.43994pt on input line 372.
+LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
+(Font)              scaled to size 10.07994pt on input line 372.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8<./figures/1/2-2.pdf><./figures/1/2-3.pdf><./figures/1/2-4.pdf><./figures/1/2
+-5.pdf>]
+[9<./figures/1/2-6.pdf>] [10
+
+]
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -2716,8 +2756,7 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                With LuaTeX, lipsum requires babel to get proper
 (lipsum)                hyphenation (you can use \usepackage[base]{babel}).
 
-[9
-
+[11
 
 ] (./geometry.aux)
  ***********
@@ -2727,24 +2766,24 @@ L3 programming layer <2020/03/25>
 )
 
 Here is how much of LuaTeX's memory you used:
- 49768 strings out of 475704
+ 49905 strings out of 475704
  125061,1977958 words of node,token memory allocated
- 2073 words of node memory still in use:
+ 2082 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
-kern, 4 glyph, 82 attribute, 198 glue_spec, 82 attribute_list, 3 write, 24 pdf_l
+kern, 4 glyph, 83 attribute, 199 glue_spec, 83 attribute_list, 3 write, 24 pdf_l
 iteral, 24 pdf_colorstack nodes
-   avail lists: 1:6,2:1032,3:550,4:85,5:296,6:50,7:3880,8:3,9:626,10:9,11:364
- 71562 multiletter control sequences out of 65536+600000
- 109 fonts using 48601023 bytes
- 107i,12n,104p,1004b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:5,2:1732,3:926,4:96,5:296,6:51,7:3880,8:9,9:665,10:9,11:364
+ 71672 multiletter control sequences out of 65536+600000
+ 135 fonts using 58719983 bytes
+ 107i,15n,104p,1004b,1459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/john/.local/share/fonts/Libertinus-OTF/LibertinusMath-Regular.otf></home/
 john/.local/share/fonts/Libertinus-OTF/LibertinusSans-Italic.otf></home/john/.lo
 cal/share/fonts/Libertinus-OTF/LibertinusSans-Bold.otf></home/john/.local/share/
 fonts/Libertinus-OTF/LibertinusSans-Regular.otf>
-Output written on geometry.pdf (15 pages, 94030 bytes).
+Output written on geometry.pdf (17 pages, 117158 bytes).
 
-PDF statistics: 419 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 1048576)
- 328 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 502 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 1048576)
+ 344 words of extra memory for PDF output out of 10000 (max. 100000000)
 

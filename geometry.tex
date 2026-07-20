@@ -2,7 +2,8 @@
   12pt,
   a4paper,
   twoside,
-  openright
+  openright,
+  fleqn
 ]{memoir}
 
 \input{preamble}
@@ -77,7 +78,7 @@ to name it.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/1/1-2.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-2.pdf}
   \caption*{line \(\ell\), line \(AB\) (\(\overleftrightarrow{AB}\)),
   or line \(BA\) (\(\overleftrightarrow{BA}\))}
 \end{figure}
@@ -92,7 +93,7 @@ name a plane.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{figures/1/1-3.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-3.pdf}
   \caption*{plane \(\symbf{M}\) or plane \(ABC\)}
 \end{figure}
 
@@ -107,7 +108,7 @@ the same line.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/1/1-4.pdf}
+    \includegraphics[width=0.40\textwidth]{figures/1/1-4.pdf}
   \end{figure}
 
   \begin{enumerate}[]
@@ -149,7 +150,7 @@ Note that \(\overline{AB}\) can also be named \(\overline{BA}\).
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{figures/1/1-5.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-5.pdf}
   \caption*{segment \(\overline{AB}\) or \(\overline{BA}\)}
 \end{figure}
 
@@ -162,7 +163,7 @@ different rays.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{figures/1/1-6.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-6.pdf}
   \caption*{rays $\overrightarrow{AB}$ and $\overrightarrow{BA}$}
 \end{figure}
 
@@ -173,7 +174,7 @@ are opposite rays.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/1/1-7.pdf}
+  \includegraphics[width=0.4\textwidth]{figures/1/1-7.pdf}
   \caption*{opposite rays \(\overrightarrow{CA}\) and \(\overrightarrow{CB}\)}
 \end{figure}
 
@@ -186,7 +187,7 @@ same plane.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{figures/1/1-8.pdf}
+    \includegraphics[width=0.35\textwidth]{figures/1/1-8.pdf}
   \end{figure}
 
   \begin{enumerate}
@@ -222,17 +223,20 @@ more points in common. The intersection of the figures is the set of points
 the figures have in common. Some examples of intersections are
 shown below.
 
-\begin{figure}[H]
+\makebox[\textwidth][c]{%
+\begin{minipage}[t]{0.35\textwidth}
   \centering
-  \includegraphics[width=0.4\textwidth]{figures/1/1-9.pdf}
-  \caption*{The intersection of two different lines is a point.}
-\end{figure}
+  \includegraphics[width=\linewidth]{figures/1/1-9.pdf}
 
-\begin{figure}[H]
+  {\small The intersection of two different lines is a point.}
+\end{minipage}\hspace{0.05\textwidth}
+\begin{minipage}[t]{0.35\textwidth}
   \centering
-  \includegraphics[width=0.4\textwidth]{figures/1/1-10.pdf}
-  \caption*{The intersection of two different planes is a line.}
-\end{figure}
+  \includegraphics[width=\linewidth]{figures/1/1-10.pdf}
+
+  {\small The intersection of two different planes is a line.}
+\end{minipage}
+}
 
 \begin{example}
   Sketch intersections of lines and planes
@@ -248,15 +252,15 @@ shown below.
     \begin{enumerate}
       \item The line \(\ell\) is in the plane \(\symbf{M}\).
 
-        \includegraphics[width=0.4\textwidth]{figures/1/1-11.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-11.pdf}
 
       \item The line \(\ell\) does not intersect the plane \(\symbf{M}\).
 
-        \includegraphics[width=0.4\textwidth]{figures/1/1-12.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-12.pdf}
 
       \item The line \(\ell\) intersects the plane \(\symbf{M}\) at a point.
 
-        \includegraphics[width=0.4\textwidth]{figures/1/1-13.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-13.pdf}
     \end{enumerate}
   \end{solution}
 \end{example}
@@ -279,7 +283,7 @@ Outside box: \the\parskip
     step 3 Draw the line of intersection.
 
     \begin{figure}[H]
-      \includegraphics[width=0.5\textwidth]{figures/1/1-14.pdf}
+      \includegraphics[width=0.4\textwidth]{figures/1/1-14.pdf}
     \end{figure}
   \end{solution}
 \end{example}
@@ -302,15 +306,85 @@ proof is called a postulate or axiom.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{figures/1/2-1.pdf}
+    \includegraphics[width=0.35\textwidth]{figures/1/2-1.pdf}
   \end{figure}
 
   The \textbf{distance} between points \(A\) and \(B\),
   written as \(AB\), is the absolute value of the
   difference of the coordinates of \(A\) and \(B\).
 
-
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{figures/1/2-2.pdf}
+  \end{figure}
 \end{postulate}
+
+The distance between points \(A\) and \(B\), or \(AB\),
+is also called the \textit{length} of \(\overline{AB}\).
+
+\subsection{Adding Segment Lengths}
+
+When three points are collinear, you can say
+that one point is \textbf{between} the other two.
+
+\makebox[\textwidth][c]{%
+\begin{minipage}[t]{0.35\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/1/2-3.pdf}
+
+  {\small Point \(B\) is between points \(A\) and \(C\).}
+\end{minipage}\hspace{0.05\textwidth}
+\begin{minipage}[t]{0.35\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/1/2-4.pdf}
+
+  {\small Point \(E\) is not between points \(D\) and \(F\).}
+\end{minipage}
+}
+
+\begin{postulate}
+  \textbf{Segment Addition Postulate}
+
+  If \(B\) is between \(A\) and \(C\), then \(AB+BC=AC\).
+  If \(AB+BC=AC\), then \(B\) is between \(A\) and \(C\).
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{figures/1/2-5.pdf}
+  \end{figure}
+\end{postulate}
+
+\begin{example}
+  Find a length
+
+  Use the diagram to find \(GH\).
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{figures/1/2-6.pdf}
+  \end{figure}
+
+  \begin{solution}
+    Use the Segment Addition Postulate to write an equation. Then solve the
+    equation to find \(GH\).
+\[
+    \begin{aligned}
+      FH &= FG+GH && \text{Segment Addition Postulate}\\
+      36 &= 21+GH && \text{Substitute $36$ for $FH$ and $21$ for $FG$.}\\
+      15 &= GH    && \text{Subtract $21$ from each side.}
+    \end{aligned}
+\]
+  \end{solution}
+\end{example}
+
+\subsection{Congruent Segments}
+
+Line segments that have the same length are called
+\textbf{congruent segments}. In the diagram below, you can say “the length of
+\(\overline{AB}\) is equal to the length of \(\overline{CD}\),”
+or you can say “\(\overline{AB}\) is congruent to \(\overline{CD}\).”
+The symbol \(\cong\) means “is congruent to.”
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Back Matter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
