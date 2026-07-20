@@ -1,4 +1,4 @@
-PWD /home/john/projects/latex
+PWD /home/john/projects/geometry
 INPUT /home/john/.local/opt/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./geometry.tex
 OUTPUT geometry.log
@@ -339,4 +339,6 @@ INPUT ./figures/chapter-1/example3-c.pdf
 INPUT ./figures/chapter-1/example3-c.pdf
 INPUT ./figures/chapter-1/example-4.pdf
 INPUT ./figures/chapter-1/example-4.pdf
+INPUT ./figures/chapter-1/example-5.pdf
+INPUT ./figures/chapter-1/example-5.pdf
 INPUT ./geometry.aux

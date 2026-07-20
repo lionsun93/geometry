@@ -5,6 +5,7 @@
 \etoc@startlocaltoc {2}
 \contentsline {section}{\numberline {1.1}Points, Lines, and Planes}{1}{section.1.1}%
 \contentsline {subsection}{Undefined Terms}{1}{section*.4}%
-\contentsline {subsection}{Defined Terms}{4}{section*.9}%
-\contentsline {subsection}{Intersections}{6}{section*.14}%
-\contentsline {chapter}{Appendix}{9}{chapter*.18}%
+\contentsline {subsection}{Defined Terms}{3}{section*.9}%
+\contentsline {subsection}{Intersections}{5}{section*.14}%
+\contentsline {section}{\numberline {1.2}Use Segments and Congruence}{8}{section.1.2}%
+\contentsline {chapter}{Appendix}{9}{chapter*.20}%

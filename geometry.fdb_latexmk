@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1784377305.38072 "geometry.tex" "geometry.pdf" "geometry" 1784377320.09703 0
+["lualatex"] 1784391798.38521 "geometry.tex" "geometry.pdf" "geometry" 1784391813.22912 0
   "/home/john/.local/opt/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/home/john/.local/opt/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/home/john/.local/opt/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
@@ -287,6 +287,7 @@
   "figures/chapter-1/example-1.pdf" 1784215015.07693 6913 abc1353818e3e99efda9a88dacb912bf ""
   "figures/chapter-1/example-2.pdf" 1784305810.41211 6031 20e0e25bc39e494b6578cb76209f8c55 ""
   "figures/chapter-1/example-4.pdf" 1784377133.52169 5464 b081cf19cb733e8960f7095fae2edd5e ""
+  "figures/chapter-1/example-5.pdf" 1784391516.71686 4248 525223efb558455af3514af2ccb9decd ""
   "figures/chapter-1/example3-a.pdf" 1784371418.19286 4972 bf5376a6e4d757eb492c3f25b77092f3 ""
   "figures/chapter-1/example3-b.pdf" 1784371586.43029 4971 21b92d12616e4cd111097e074e7ce673 ""
   "figures/chapter-1/example3-c.pdf" 1784373579.52774 5036 8604f24d9389e3d3d025a1aba715eea6 ""
@@ -298,9 +299,9 @@
   "figures/chapter-1/point.pdf" 1784193946.19179 4665 21fd4f20eddb1d7c9477be7a019a4dfb ""
   "figures/chapter-1/ray.pdf" 1784298674.53012 7342 59fe21b57209800dba470228eca92bde ""
   "figures/chapter-1/segment.pdf" 1784289130.49632 7050 b103c24d0f1c5013481d28c131312fd6 ""
-  "geometry.aux" 1784377318.51518 3886 05c9a0d627eff89530ee751cda65b777 "lualatex"
-  "geometry.tex" 1784377287.21041 8532 faa92ab813a18d74ceed4ccf6c49012c ""
-  "geometry.toc" 1784377318.53918 683 7e5701bb6e6256dab1544418a16152f3 "lualatex"
+  "geometry.aux" 1784391811.65996 3886 fb5a0ffdba40bfec54ec0a49e903a8fa "lualatex"
+  "geometry.tex" 1784391722.53233 8873 2752179da43df0a23b3ade191520c94c ""
+  "geometry.toc" 1784391811.68296 683 3dfafd101c7a9ee6732d6b79e8bb6891 "lualatex"
   "preamble.tex" 1784298342.11605 5413 b50c7566f2975c39604765a2bd4000b9 ""
   "preface.tex" 1784306210.40798 1659 5fb80b3117e3614ae46ddec86e496b44 ""
   "titlepage.tex" 1784116324.79795 167 885fab1686740d9fc89871cf2a567752 ""

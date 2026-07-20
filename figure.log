@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  18 JUL 2026 15:48
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  20 JUL 2026 17:20
  restricted system commands enabled.
 **figure.tex
 (./figure.tex
@@ -1611,21 +1611,23 @@ L3 programming layer <2026-06-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 37436 strings out of 475704
+ 37381 strings out of 475704
  125240,1977958 words of node,token memory allocated
- 4101 words of node memory still in use:
-   80 hlist, 2 vlist, 10 rule, 6 math, 132 glue, 5 kern, 4 glyph, 339 attribute,
- 55 glue_spec, 339 attribute_list, 2 write, 157 pdf_literal, 20 pdf_colorstack n
-odes
-   avail lists: 1:2,2:36,3:287,4:18,5:23,6:2,7:304,8:1,9:140
- 59237 multiletter control sequences out of 65536+600000
- 63 fonts using 18403387 bytes
- 102i,7n,101p,1002b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/john/.local/share/fonts/Libertinus-OTF/LibertinusMath-Regular.otf>
-Output written on figure.pdf (1 page, 5464 bytes).
+ 4388 words of node memory still in use:
+   79 hlist, 2 vlist, 10 rule, 3 disc, 8 math, 128 glue, 9 kern, 42 glyph, 327 a
+ttribute, 55 glue_spec, 327 attribute_list, 2 write, 170 pdf_literal, 20 pdf_col
+orstack nodes
+   avail lists: 1:2,2:36,3:313,4:18,5:28,6:2,7:376,8:2,9:138,11:6
+ 59182 multiletter control sequences out of 65536+600000
+ 63 fonts using 18403211 bytes
+ 102i,7n,101p,1002b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/john/.local/share/fonts/Libertinus-OTF/LibertinusMath-Regular.otf></home/
+john/.local/share/fonts/Libertinus-OTF/LibertinusMath-Regular.otf></home/john/.l
+ocal/share/fonts/Libertinus-OTF/LibertinusSans-Regular.otf>
+Output written on figure.pdf (1 page, 9663 bytes).
 
-PDF statistics: 42 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+PDF statistics: 56 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 1048576)
  176 words of extra memory for PDF output out of 10000 (max. 100000000)
 
