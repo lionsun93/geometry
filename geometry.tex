@@ -26,13 +26,9 @@
 
 \localtableofcontents*
 
-{\large\bfseries Perimeter}
+\textbf{Perimeter}: The distance around a rectangle is called its \textbf{perimeter.}
 
-The distance around a rectangle is called its \textbf{perimeter.}
-
-{\large\bfseries Circumference}
-
-The distance around a circle is called its \textbf{circumference.}
+\textbf{Circumference}: The distance around a circle is called its \textbf{circumference.}
 
 % \settasks{
 %   label-width=0em,
@@ -104,7 +100,7 @@ the same line.
 
 \begin{example}\label{exa:point}
 
-  Name points, lines, and planes
+  \textcolor{violet}{\textbf{Name points, lines, and planes}}
 
   \begin{figure}[H]
     \centering
@@ -123,7 +119,7 @@ the same line.
   \end{enumerate}
 
   \begin{solution}
-    \begin{enumerate}[]
+    \begin{enumerate}
       \item Line \(n\), \(\overleftrightarrow{QP}\).
 
       \item Plane \(VST\), plane \(VPT\).
@@ -183,7 +179,7 @@ are collinear. Lines, segments, and rays are coplanar if they lie in the
 same plane.
 
 \begin{example}
-  Name segments, rays, and opposite rays
+  \textcolor{violet}{\textbf{Name segments, rays, and opposite rays}}
 
   \begin{figure}[H]
     \centering
@@ -239,7 +235,7 @@ shown below.
 }
 
 \begin{example}
-  Sketch intersections of lines and planes
+  \textcolor{violet}{\textbf{Sketch intersections of lines and planes}}
 
   \begin{enumerate}
     \item Sketch a plane and a line that is in the plane.
@@ -268,11 +264,12 @@ shown below.
 Outside box: \the\parskip
 
 \begin{example}
-  Sketch intersections of planes
+  \textcolor{violet}{\textbf{Sketch intersections of planes}}
 
   Sketch two planes that intersect in a line.
 
   \begin{solution}
+
     step 1 Draw a vertical plane. Shade the plane.
 
     step 2 Draw a second plane that is
@@ -297,7 +294,7 @@ proof is called a postulate or axiom.
 
 \begin{postulate}
 
-  \textbf{Ruler Postulate}
+  \textcolor{teal}{\textbf{Ruler Postulate}}
 
   The points on a line can be matched one
   to one with the real numbers. The real
@@ -343,7 +340,7 @@ that one point is \textbf{between} the other two.
 }
 
 \begin{postulate}
-  \textbf{Segment Addition Postulate}
+  \textcolor{teal}{\textbf{Segment Addition Postulate}}
 
   If \(B\) is between \(A\) and \(C\), then \(AB+BC=AC\).
   If \(AB+BC=AC\), then \(B\) is between \(A\) and \(C\).
@@ -355,7 +352,7 @@ that one point is \textbf{between} the other two.
 \end{postulate}
 
 \begin{example}
-  Find a length
+  \textcolor{violet}{\textbf{Find a length}}
 
   Use the diagram to find \(GH\).
 
@@ -407,38 +404,233 @@ Segments are congruent.\\
 }
 
 \begin{example}
-  Compare segments for congruence
+  \textcolor{violet}{\textbf{Compare segments for congruence}}
 
   Plot \(J(23, 4)\), \(K(2, 4)\), \(L(1, 3)\), and \(M(1, 22)\) in a coordinate plane.
   Then determine whether \(\overline{JK}\) and \(\overline{LM}\) are congruent.
 
   \begin{solution}
-    \makebox[\textwidth][c]{%
-      \begin{minipage}[t]{0.56\textwidth}
-        To find the length of a horizontal segment,
-        find the absolute value of the difference of
-        the \(x\)-coordinates of the endpoints.
-        \[
-        JK=|2-(-3)|=5 \quad \text{Use Ruler Postulate.}
-        \]
-        To find the length of a vertical segment,
-        find the absolute value of the difference of
-        the \(y\)-coordinates of the endpoints.
-        \[
-        LM=|-2-3|=5 \quad \text{Use Ruler Postulate.}
-        \]
-        \(JK\) and \(LM\) have the same length. So,
-        \(\overline{JK}\cong\overline{LM}\).
-      \end{minipage}\hspace{0.02\textwidth}
-      \begin{minipage}[t]{0.36\textwidth}
-        \centering
-        \adjustbox{valign=t}{\includegraphics[width=\linewidth]{figures/1/2-8.pdf}}
-      \end{minipage}
-    }
+%    \makebox[\textwidth][c]{%
+%      \begin{minipage}[t]{0.56\textwidth}
+%        To find the length of a horizontal segment,
+%        find the absolute value of the difference of
+%        the \(x\)-coordinates of the endpoints.
+%        \[
+%        JK=|2-(-3)|=5 \quad \text{Use Ruler Postulate.}
+%        \]
+%        To find the length of a vertical segment,
+%        find the absolute value of the difference of
+%        the \(y\)-coordinates of the endpoints.
+%        \[
+%        LM=|-2-3|=5 \quad \text{Use Ruler Postulate.}
+%        \]
+%        \(JK\) and \(LM\) have the same length. So,
+%        \(\overline{JK}\cong\overline{LM}\).
+%      \end{minipage}\hspace{0.02\textwidth}
+%      \begin{minipage}[t]{0.36\textwidth}
+%        \centering
+%        \adjustbox{valign=t}{\includegraphics[width=\linewidth]{figures/1/2-8.pdf}}
+%      \end{minipage}
+%    }
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figures/1/2-8.pdf}
+\end{figure}
+
+    To find the length of a horizontal segment,
+    find the absolute value of the difference of
+    the \(x\)-coordinates of the endpoints.
+    \[
+    JK=|2-(-3)|=5 \quad \text{Use Ruler Postulate.}
+    \]
+    To find the length of a vertical segment,
+    find the absolute value of the difference of
+    the \(y\)-coordinates of the endpoints.
+    \[
+    LM=|-2-3|=5 \quad \text{Use Ruler Postulate.}
+    \]
+    \(JK\) and \(LM\) have the same length. So,
+    \(\overline{JK}\cong\overline{LM}\).
+
   \end{solution}
 \end{example}
 
 \section{Use Midpoint and Distance Formulas}
+
+\subsection{Midpoints and Bisectors}
+
+The \textbf{midpoint} of a segment is the point that
+divides the segment into two congruent segments. A \textbf{segment bisector} is
+a point, ray, line, line segment, or plane th at intersects the segment at its
+midpoint. A midpoint or a segment bisector \textit{bisects} a segment.
+
+%\makebox[\textwidth][c]{%
+%\begin{minipage}[t]{0.45\textwidth}
+%  \centering
+%  \adjustbox{valign=t}{\includegraphics[width=\linewidth]{figures/1/3-1.png}}
+%  {\small \(M\) is the midpoint of \(\overline{AB}\).
+%    So \(\overline{AM}\cong\overline{MB}\) and \(AM=MB\)}
+%\end{minipage}\hspace{0.02\textwidth}
+%\begin{minipage}[t]{0.45\textwidth}
+%  \centering
+%  \adjustbox{valign=t}{\includegraphics[width=\linewidth]{figures/1/3-2.png}}
+%  {\small \(CD\) is a segment bisector of \(AB\).
+%  So, \(\overline{AM}\cong\overline{MB}\) and \(AM=MB\).}
+%\end{minipage}
+%}
+  \begin{figure}[H]
+    \centering
+   \includegraphics[width=0.4\textwidth]{figures/1/3-1.png}
+    \caption*{\(M\) is the midpoint of \(\overline{AB}\).
+    So \(\overline{AM}\cong\overline{MB}\) and \(AM=MB\).}
+  \end{figure}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figures/1/3-2.png}
+    \caption*{\(CD\) is a segment bisector of \(AB\).
+      So, \(\overline{AM}\cong\overline{MB}\) and \(AM=MB\).}
+  \end{figure}
+
+\begin{example}
+  \textcolor{violet}{\textbf{Find segment lengths}}
+
+  In the skateboard design, \(VW\) bisects \(XY\) at
+point \(T\), and \(XT=\qty{39.9}{\centi\meter}\). Find \(XY\).
+
+\begin{figure}[H]
+  \centering
+\includegraphics[width=0.3\textwidth]{figures/1/3-3.png}
+\end{figure}
+
+\begin{solution}
+  Point \(T\) is the midpoint of \(XY\). So, \(XT=TY=\qty{39.9}{\centi\meter}\).
+  \[
+  \begin{aligned}
+    XY &= XT+TY & \quad \text{Segment Addition Postulate}\\
+    &= 39.9+39.9\\
+    &=79.8\unit{\centi\meter}
+  \end{aligned}
+  \]
+\end{solution}
+
+\end{example}
+
+\begin{example}
+  \textcolor{violet}{Use algebra with segment lengths}
+
+  Point \(M\) is the midpoint of \(\overline{VW}\).
+  Find the length of \(\overline{VM}\).
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{figures/1/3-4.png}
+  \end{figure}
+
+  \begin{solution}
+
+    step~1 Write and solve an equation. Use the fact that that \(VM=MW\).
+    \[
+    \begin{aligned}
+      VM &= MW          && \quad \text{Write equation.}\\
+      4x - 1 &= 3x - 3  && \quad \text{Substitute.}\\
+      x-1 &= 3          && \quad \text{Subtract \ensuremath{3x} from each side.}\\
+      x &= 4            && \quad \text{Add 1 to each side.}
+    \end{aligned}
+    \]
+    step~2 Evaluate the expression for \(VM\) when \(x = 4\).
+    \[VM=4x-1=4(4)-1=15\]
+    So the length of \(\overline{VM}\) is \boxed{15}.
+
+    check Because \(VM = MW\), the length of \(\overline{MW}\)
+     should be \(15\). If you evaluate the expression for \(MW\),
+     you should find that \(MW = 15\).
+     \[MW=3x+3=3(4)+3=15 \checkmark\]
+  \end{solution}
+\end{example}
+
+You can use the coordinates of the endpoints of a
+segment to find the coordinates of the midpoint.
+
+\subsection{The Midpoint Formula}
+
+The coordinates of the midpoint of a
+segment are the averages of the
+\(x\)-coordinates and of the \(y\)-coordinates
+of the endpoints.
+
+If \(A(x_1, y_1)\) and \(B(x_2, y_2)\) are points in a
+coordinate plane, then the midpoint \(M\)
+\(\overline{AB}\) has coordinates
+
+\makebox[\textwidth][c]{
+\(\displaystyle\left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right)\)
+}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figures/1/3-5.png}
+\end{figure}
+
+\begin{example}
+
+  \textcolor{violet}{\textbf{Use the Midpoint Formula}}
+  \begin{enumerate}
+
+    \item The endpoints of \(\overline{RS}\) are \(R(1, -3)\) and \(S(4, 2)\). Find
+    the coordinates of the midpoint \(M\).
+
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.35\textwidth]{figures/1/3-6.png}
+    \end{figure}
+
+    \item The midpoint of \(\overline{JK}\) is \(M(2, 1)\). One endpoint is
+    \(J(1, 4)\). Find the coordinates of endpoint \(K\).
+
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.35\textwidth]{figures/1/3-7.png}
+    \end{figure}
+  \end{enumerate}
+  \begin{solution}
+
+    \begin{enumerate}
+      \item Use the Midpoint Formula.
+      \[
+      M\left(\frac{1+4}{2},\frac{-3+2}{2}\right)=
+      M\left(\frac{5}{2},-\frac{1}{2}\right)
+      \]
+      The coordinates of the midpoint M are
+      \boxed{\left(\frac{5}{2},-\frac{1}{2}\right)}.
+
+      \item Let \((x, y)\) be the coordinates of endpoint \(K\).
+      Use the Midpoint Formula.
+
+      step~1 Find \(x\).
+        \[
+      \begin{aligned}
+        \frac{1+x}{2} &= 2\\
+        1+x &= 4\\
+        x &= 3
+      \end{aligned}
+      \]
+      step~2 Find \(y\).
+      \[
+      \begin{aligned}
+        \frac{4+y}{2} &= 1\\
+        4+y &= 2\\
+        y &= -2
+      \end{aligned}
+      \]
+      The coordinates of endpoint \(K\) are \boxed{(3, -2)}.
+    \end{enumerate}
+  \end{solution}
+\end{example}
+
+\subsection{DISTANCE FORMULA}
+
+The Distance Formula is a formula for computing the
+distance between two points in a coordinate plane.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

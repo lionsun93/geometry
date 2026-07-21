@@ -6,8 +6,12 @@
 \contentsline {section}{\numberline {1.1}Points, Lines, and Planes}{1}{section.1.1}%
 \contentsline {subsection}{Undefined Terms}{1}{section*.4}%
 \contentsline {subsection}{Defined Terms}{3}{section*.9}%
-\contentsline {subsection}{Intersections}{5}{section*.14}%
-\contentsline {section}{\numberline {1.2}Use Segments and Congruence}{7}{section.1.2}%
-\contentsline {subsection}{Adding Segment Lengths}{8}{section*.18}%
-\contentsline {subsection}{Congruent Segments}{9}{section*.21}%
-\contentsline {chapter}{Appendix}{11}{chapter*.23}%
+\contentsline {subsection}{Intersections}{4}{section*.14}%
+\contentsline {section}{\numberline {1.2}Use Segments and Congruence}{6}{section.1.2}%
+\contentsline {subsection}{Adding Segment Lengths}{7}{section*.18}%
+\contentsline {subsection}{Congruent Segments}{8}{section*.21}%
+\contentsline {section}{\numberline {1.3}Use Midpoint and Distance Formulas}{10}{section.1.3}%
+\contentsline {subsection}{Midpoints and Bisectors}{10}{section*.23}%
+\contentsline {subsection}{The Midpoint Formula}{12}{section*.28}%
+\contentsline {subsection}{DISTANCE FORMULA}{14}{section*.32}%
+\contentsline {chapter}{Appendix}{15}{chapter*.34}%

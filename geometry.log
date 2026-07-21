@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  20 JUL 2026 23:38
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.11)  21 JUL 2026 22:35
  restricted system commands enabled.
 **geometry.tex
 (./geometry.tex
@@ -1301,24 +1301,168 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 kz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/witharrows/witharrow
+s.sty
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflib
+raryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen335
+\pgfarrowlength=\dimen336
+\pgfarrowwidth=\dimen337
+\pgfarrowlinewidth=\dimen338
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodul
+ebending.code.tex
+File: pgfmodulebending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodul
+enonlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgftransformnonlinearflatness=\dimen339
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflib
+rarycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@curvilinear@time@a=\dimen340
+\pgf@curvilinear@length@a=\dimen341
+\pgf@curvilinear@length@b=\dimen342
+\pgf@curvilinear@length@c=\dimen343
+\pgf@curvilinear@length@d=\dimen344
+)
+\pgf@arrows@the@rigidity=\dimen345
+)
+Package: witharrows 2024/10/19 v2.9a Draws arrows for explanations on the right
+
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box79
+\sift@deathcycles=\count402
+\@vwid@loff=\dimen346
+\@vwid@roff=\dimen347
+)
+==> First Aid for varwidth.sty applied!
+\g__witharrows_last_env_int=\count403
+\l__witharrows_pos_env_int=\count404
+\l__witharrows_pos_arrow_int=\count405
+\g__witharrows_arrow_int=\count406
+\g__witharrows_line_int=\count407
+\g__witharrows_col_int=\count408
+\g__witharrows_static_col_int=\count409
+\l__witharrows_nb_cols_int=\count410
+\l__witharrows_arrow_width_dim=\dimen348
+\l__witharrows_up_and_down_radius_dim=\dimen349
+\l__witharrows_xoffset_for_o_arrows_dim=\dimen350
+\l__witharrows_max_length_of_arrow_dim=\dimen351
+\l__witharrows_ygap_dim=\dimen352
+\l__witharrows_ystart_dim=\dimen353
+\l__witharrows_xoffset_dim=\dimen354
+\l__witharrows_interline_skip=\skip263
+\l__witharrows_start_adjust_dim=\dimen355
+\l__witharrows_end_adjust_dim=\dimen356
+\l__witharrows_mathindent_skip=\skip264
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/adjustbox/adjustbox.st
+y
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+\XKV@tempb@toks=\toks54
+)
+\XKV@depth=\count411
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/collectbox/collectbox.
+sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box80
+)
+\tc@llx=\dimen357
+\tc@lly=\dimen358
+\tc@urx=\dimen359
+\tc@ury=\dimen360
+Package trimclip Info: Using driver 'tc-luatex.def'.
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/adjustbox/tc-luatex.de
+f
+File: tc-luatex.def 2025/02/26 v1.1 Clipping driver for luatex
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/adjustbox/tc-pdftex.de
+f
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+)))
+\adjbox@Width=\dimen361
+\adjbox@Height=\dimen362
+\adjbox@Depth=\dimen363
+\adjbox@Totalheight=\dimen364
+\adjbox@pwidth=\dimen365
+\adjbox@pheight=\dimen366
+\adjbox@pdepth=\dimen367
+\adjbox@ptotalheight=\dimen368
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2024/08/09 v2.17 Emphasizing equations
+\l_EQ_equationtype_int=\count412
+\l_EQ_alignmentmode_int=\count413
+\l_EQ_totalwidth_dim=\dimen369
+\l_EQ_displaywidth_dim=\dimen370
+\l_EQ_temp_linewidth_dim=\dimen371
+\l_EQ_linewidth_dim=\dimen372
+\EmphEqdelimitershortfall=\dimen373
+\EmphEqdelimiterfactor=\count414
+\g_EQ_toptag_height_dim=\dimen374
+\g_EQ_bottomtag_depth_dim=\dimen375
+\g_EQ_toprow_height_dim=\dimen376
+\g_EQ_bottomrow_depth_dim=\dimen377
+\g_EQ_widesttag_dim=\dimen378
+\EQ_mathdisplay_box=\box81
+\EQ_tag_box=\box82
+\g_EQ_temprow_int=\count415
+)
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip263
-\enit@outerparindent=\dimen335
-\enit@toks=\toks52
-\enit@inbox=\box79
-\enit@count@id=\count402
-\enitdp@description=\count403
+\labelindent=\skip265
+\enit@outerparindent=\dimen379
+\enit@toks=\toks55
+\enit@inbox=\box83
+\enit@count@id=\count416
+\enitdp@description=\count417
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.st
 y
 Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
-\csq@reset=\count404
-\csq@gtype=\count405
-\csq@glevel=\count406
-\csq@qlevel=\count407
-\csq@maxlvl=\count408
-\csq@tshold=\count409
-\csq@ltx@everypar=\toks53
+\csq@reset=\count418
+\csq@gtype=\count419
+\csq@glevel=\count420
+\csq@qlevel=\count421
+\csq@maxlvl=\count422
+\csq@tshold=\count423
+\csq@ltx@everypar=\toks56
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
 )
@@ -1337,27 +1481,27 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box80
-\tcb@upperbox=\box81
-\tcb@lowerbox=\box82
-\tcb@phantombox=\box83
-\c@tcbbreakpart=\count410
-\c@tcblayer=\count411
-\c@tcolorbox@number=\count412
-\l__tcobox_tmpa_box=\box84
-\l__tcobox_tmpa_dim=\dimen336
-\tcb@temp=\box85
-\tcb@temp=\box86
-\tcb@temp=\box87
-\tcb@temp=\box88
+\tcb@titlebox=\box84
+\tcb@upperbox=\box85
+\tcb@lowerbox=\box86
+\tcb@phantombox=\box87
+\c@tcbbreakpart=\count424
+\c@tcblayer=\count425
+\c@tcolorbox@number=\count426
+\l__tcobox_tmpa_box=\box88
+\l__tcobox_tmpa_dim=\dimen380
+\tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
+\tcb@temp=\box92
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbraster.co
 de.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.10.0'
-\c@tcbrastercolumn=\count413
-\c@tcbrasterrow=\count414
-\c@tcbrasternum=\count415
-\c@tcbraster=\count416
+\c@tcbrastercolumn=\count427
+\c@tcbrasterrow=\count428
+\c@tcbrasternum=\count429
+\c@tcbraster=\count430
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbskins.cod
 e.tex
@@ -1370,9 +1514,9 @@ Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tikzfill/tikzlibraryfi
 ll.image.code.tex
 File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
-\l__tikzfill_tmpa_dim=\dimen337
-\l__tikzfill_tmpb_dim=\dimen338
-\l__tikzfill_img_box=\box89
+\l__tikzfill_tmpa_dim=\dimen381
+\l__tikzfill_tmpb_dim=\dimen382
+\l__tikzfill_img_box=\box93
 ))
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbskinsjigs
 aw.code.tex
@@ -1385,9 +1529,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.10.0'
 Package: pdfcol 2026-06-20 v1.8 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box90
-\tcb@totalupperbox=\box91
-\tcb@totallowerbox=\box92
+\tcb@testbox=\box94
+\tcb@totalupperbox=\box95
+\tcb@totallowerbox=\box96
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
@@ -1403,10 +1547,10 @@ Library (tcolorbox): 'tcbtheorems.code.tex' version '6.10.0'
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcbfitting.c
 ode.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.10.0'
-\tcbfitdim=\dimen339
-\tcb@lowerfitdim=\dimen340
-\tcb@upperfitdim=\dimen341
-\tcb@cur@hbadness=\count417
+\tcbfitdim=\dimen383
+\tcb@lowerfitdim=\dimen384
+\tcb@upperfitdim=\dimen385
+\tcb@cur@hbadness=\count431
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcblistingsu
 tf8.code.tex
@@ -1416,26 +1560,26 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.10.0'
 code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.10.0'
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count418
-\lst@gtempboxa=\box93
-\lst@token=\toks54
-\lst@length=\count419
-\lst@currlwidth=\dimen342
-\lst@column=\count420
-\lst@pos=\count421
-\lst@lostspace=\dimen343
-\lst@width=\dimen344
-\lst@newlines=\count422
-\lst@lineno=\count423
-\lst@maxwidth=\dimen345
+\lst@mode=\count432
+\lst@gtempboxa=\box97
+\lst@token=\toks57
+\lst@length=\count433
+\lst@currlwidth=\dimen386
+\lst@column=\count434
+\lst@pos=\count435
+\lst@lostspace=\dimen387
+\lst@width=\dimen388
+\lst@newlines=\count436
+\lst@lineno=\count437
+\lst@maxwidth=\dimen389
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count424
-\lst@skipnumbers=\count425
-\lst@framebox=\box94
+\c@lstnumber=\count438
+\lst@skipnumbers=\count439
+\lst@framebox=\box98
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/listings/listings.cf
 g
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -1450,7 +1594,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.10.0'
 g.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.10.0'
 )
-\c@tcblisting=\count426
+\c@tcblisting=\count440
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1485,32 +1629,28 @@ Package etoc Info: As this is with memoir class, all `...totoc' options
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count427
-\mult@box=\box95
-\multicol@leftmargin=\dimen346
-\c@unbalance=\count428
-\c@collectmore=\count429
-\doublecol@number=\count430
-\multicoltolerance=\count431
-\multicolpretolerance=\count432
-\full@width=\dimen347
-\page@free=\dimen348
-\premulticols=\dimen349
-\postmulticols=\dimen350
-\multicolsep=\skip264
-\multicolbaselineskip=\skip265
-\partial@page=\box96
-\last@line=\box97
-\mc@boxedresult=\box98
-\maxbalancingoverflow=\dimen351
-\mult@rightbox=\box99
-\mult@grightbox=\box100
-\mult@firstbox=\box101
-\mult@gfirstbox=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
+\c@tracingmulticols=\count441
+\mult@box=\box99
+\multicol@leftmargin=\dimen390
+\c@unbalance=\count442
+\c@collectmore=\count443
+\doublecol@number=\count444
+\multicoltolerance=\count445
+\multicolpretolerance=\count446
+\full@width=\dimen391
+\page@free=\dimen392
+\premulticols=\dimen393
+\postmulticols=\dimen394
+\multicolsep=\skip266
+\multicolbaselineskip=\skip267
+\partial@page=\box100
+\last@line=\box101
+\mc@boxedresult=\box102
+\maxbalancingoverflow=\dimen395
+\mult@rightbox=\box103
+\mult@grightbox=\box104
+\mult@firstbox=\box105
+\mult@gfirstbox=\box106
 \@tempa=\box107
 \@tempa=\box108
 \@tempa=\box109
@@ -1543,35 +1683,39 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box136
 \@tempa=\box137
 \@tempa=\box138
-\c@minrows=\count433
-\c@columnbadness=\count434
-\c@finalcolumnbadness=\count435
-\last@try=\dimen352
-\multicolovershoot=\dimen353
-\multicolundershoot=\dimen354
-\mult@nat@firstbox=\box139
-\colbreak@box=\box140
-\mc@col@check@num=\count436
-\g__mc_curr_col_int=\count437
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\c@minrows=\count447
+\c@columnbadness=\count448
+\c@finalcolumnbadness=\count449
+\last@try=\dimen396
+\multicolovershoot=\dimen397
+\multicolundershoot=\dimen398
+\mult@nat@firstbox=\box143
+\colbreak@box=\box144
+\mc@col@check@num=\count450
+\g__mc_curr_col_int=\count451
 )
-\Etoc@toctoks=\toks55
-\c@etoc@tocid=\count438
-\etoc@framed@titlebox=\box141
-\etoc@framed@contentsbox=\box142
+\Etoc@toctoks=\toks58
+\c@etoc@tocid=\count452
+\etoc@framed@titlebox=\box145
+\etoc@framed@contentsbox=\box146
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen355
-\captionmargin=\dimen356
-\caption@leftmargin=\dimen357
-\caption@rightmargin=\dimen358
-\caption@width=\dimen359
-\caption@indent=\dimen360
-\caption@parindent=\dimen361
-\caption@hangindent=\dimen362
+\caption@tempdima=\dimen399
+\captionmargin=\dimen400
+\caption@leftmargin=\dimen401
+\caption@rightmargin=\dimen402
+\caption@width=\dimen403
+\caption@indent=\dimen404
+\caption@parindent=\dimen405
+\caption@hangindent=\dimen406
 Package caption Info: memoir document class detected.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/caption/caption-memoir
@@ -1579,11 +1723,11 @@ Package caption Info: memoir document class detected.
 File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to th
 e memoir document class (AR)
 ))
-\c@caption@flags=\count439
-\c@continuedfloat=\count440
+\c@caption@flags=\count453
+\c@continuedfloat=\count454
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen363
-\caption@adjustwidth@linewidth=\dimen364
+\caption@adjustwidth@hsize=\dimen407
+\caption@adjustwidth@linewidth=\dimen408
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 )
@@ -1597,137 +1741,137 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count441
-\l__siunitx_number_exponent_fixed_int=\count442
-\l__siunitx_number_min_decimal_int=\count443
-\l__siunitx_number_min_integer_int=\count444
-\l__siunitx_number_round_precision_int=\count445
-\l__siunitx_number_lower_threshold_int=\count446
-\l__siunitx_number_upper_threshold_int=\count447
-\l__siunitx_number_group_first_int=\count448
-\l__siunitx_number_group_size_int=\count449
-\l__siunitx_number_group_min_int=\count450
-\l__siunitx_number_group_minimum_int=\count451
-\l__siunitx_compound_count_int=\count452
-\l__siunitx_table_tmp_box=\box143
-\l__siunitx_table_tmp_dim=\dimen365
-\l__siunitx_table_column_width_dim=\dimen366
-\l__siunitx_table_integer_box=\box144
-\l__siunitx_table_decimal_box=\box145
-\l__siunitx_table_uncert_box=\box146
-\l__siunitx_table_before_box=\box147
-\l__siunitx_table_after_box=\box148
-\l__siunitx_table_before_dim=\dimen367
-\l__siunitx_table_carry_dim=\dimen368
-\l__siunitx_unit_tmp_int=\count453
-\l__siunitx_unit_position_int=\count454
-\l__siunitx_unit_total_int=\count455
-\l__siunitx_sexagesimal_tmp_dim=\dimen369
-\l__siunitx_sexagesimal_marker_box=\box149
-\l__siunitx_sexagesimal_unit_box=\box150
+\l__siunitx_number_uncert_offset_int=\count455
+\l__siunitx_number_exponent_fixed_int=\count456
+\l__siunitx_number_min_decimal_int=\count457
+\l__siunitx_number_min_integer_int=\count458
+\l__siunitx_number_round_precision_int=\count459
+\l__siunitx_number_lower_threshold_int=\count460
+\l__siunitx_number_upper_threshold_int=\count461
+\l__siunitx_number_group_first_int=\count462
+\l__siunitx_number_group_size_int=\count463
+\l__siunitx_number_group_min_int=\count464
+\l__siunitx_number_group_minimum_int=\count465
+\l__siunitx_compound_count_int=\count466
+\l__siunitx_table_tmp_box=\box147
+\l__siunitx_table_tmp_dim=\dimen409
+\l__siunitx_table_column_width_dim=\dimen410
+\l__siunitx_table_integer_box=\box148
+\l__siunitx_table_decimal_box=\box149
+\l__siunitx_table_uncert_box=\box150
+\l__siunitx_table_before_box=\box151
+\l__siunitx_table_after_box=\box152
+\l__siunitx_table_before_dim=\dimen411
+\l__siunitx_table_carry_dim=\dimen412
+\l__siunitx_unit_tmp_int=\count467
+\l__siunitx_unit_position_int=\count468
+\l__siunitx_unit_total_int=\count469
+\l__siunitx_sexagesimal_tmp_dim=\dimen413
+\l__siunitx_sexagesimal_marker_box=\box153
+\l__siunitx_sexagesimal_unit_box=\box154
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/nicematrix/nicematrix.
 sty
 Package: nicematrix 2026/07/14 v7.11 Enhanced arrays with the help of PGF/TikZ
-\l__nicematrix_tmpc_dim=\dimen370
-\l__nicematrix_tmpd_dim=\dimen371
-\l__nicematrix_tmpc_int=\count456
-\g__nicematrix_env_int=\count457
-\l__nicematrix_the_array_box=\box151
-\g__nicematrix_NiceMatrixBlock_int=\count458
-\g__nicematrix_notes_caption_int=\count459
-\l__nicematrix_columns_width_dim=\dimen372
-\l__nicematrix_col_width_dim=\dimen373
-\g__nicematrix_row_total_int=\count460
-\g__nicematrix_col_total_int=\count461
-\g__nicematrix_last_row_node_int=\count462
-\l__nicematrix_key_nb_rows_int=\count463
-\g__nicematrix_blocks_wd_dim=\dimen374
-\g__nicematrix_blocks_ht_dim=\dimen375
-\g__nicematrix_blocks_dp_dim=\dimen376
-\l__nicematrix_width_dim=\dimen377
-\l__nicematrix_tabular_width_dim=\dimen378
-\l__nicematrix_rule_width_before_dim=\dimen379
-\l__nicematrix_rule_width_after_dim=\dimen380
-\l__nicematrix_old_iRow_int=\count464
-\l__nicematrix_old_jCol_int=\count465
-\l__nicematrix_X_columns_dim=\dimen381
-\l__nicematrix_x_initial_dim=\dimen382
-\l__nicematrix_y_initial_dim=\dimen383
-\l__nicematrix_x_final_dim=\dimen384
-\l__nicematrix_y_final_dim=\dimen385
-\g__nicematrix_dp_row_zero_dim=\dimen386
-\g__nicematrix_ht_row_zero_dim=\dimen387
-\g__nicematrix_ht_row_one_dim=\dimen388
-\g__nicematrix_dp_ante_last_row_dim=\dimen389
-\g__nicematrix_ht_last_row_dim=\dimen390
-\g__nicematrix_dp_last_row_dim=\dimen391
-\g__nicematrix_width_last_col_dim=\dimen392
-\g__nicematrix_width_first_col_dim=\dimen393
-\l__nicematrix_multiplicity_int=\count466
-\g__nicematrix_ddots_int=\count467
-\g__nicematrix_iddots_int=\count468
-\g__nicematrix_delta_x_one_dim=\dimen394
-\g__nicematrix_delta_y_one_dim=\dimen395
-\g__nicematrix_delta_x_two_dim=\dimen396
-\g__nicematrix_delta_y_two_dim=\dimen397
-\l__nicematrix_row_min_int=\count469
-\l__nicematrix_row_max_int=\count470
-\l__nicematrix_col_min_int=\count471
-\l__nicematrix_col_max_int=\count472
-\l__nicematrix_initial_i_int=\count473
-\l__nicematrix_initial_j_int=\count474
-\l__nicematrix_final_i_int=\count475
-\l__nicematrix_final_j_int=\count476
-\l__nicematrix_segment_start_int=\count477
-\l__nicematrix_segment_end_int=\count478
-\g__nicematrix_static_num_of_col_int=\count479
-\g__nicematrix_block_box_int=\count480
-\l__nicematrix_first_row_int=\count481
-\l__nicematrix_first_col_int=\count482
-\l__nicematrix_last_row_int=\count483
-\l__nicematrix_last_col_int=\count484
-\c@tabularnote=\count485
-\g__nicematrix_tabularnote_int=\count486
-\c@nicematrix_draft=\count487
-\l__nicematrix_xdots_inter_dim=\dimen398
-\l__nicematrix_xdots_shorten_start_dim=\dimen399
-\l__nicematrix_xdots_shorten_end_dim=\dimen400
-\l__nicematrix_xdots_radius_dim=\dimen401
-\l__nicematrix_width_of_false_dim=\dimen402
-\l__nicematrix_brace_shift_dim=\dimen403
-\l__nicematrix_trees_line_width_dim=\dimen404
-\l__nicematrix_trees_rounded_corners_dim=\dimen405
-\l__nicematrix_tab_rounded_corners_dim=\dimen406
-\l__nicematrix_cell_space_top_limit_dim=\dimen407
-\l__nicematrix_cell_space_bottom_limit_dim=\dimen408
-\l__nicematrix_left_margin_dim=\dimen409
-\l__nicematrix_right_margin_dim=\dimen410
-\l__nicematrix_extra_left_margin_dim=\dimen411
-\l__nicematrix_extra_right_margin_dim=\dimen412
-\c__nicematrix_max_l_dim=\dimen413
-\l__nicematrix_rounded_corners_dim=\dimen414
-\l__nicematrix_position_int=\count488
-\l__nicematrix_start_int=\count489
-\l__nicematrix_end_int=\count490
-\l__nicematrix_line_width_dim=\dimen415
-\l__nicematrix_xoffset_dim=\dimen416
-\l__nicematrix_yoffset_dim=\dimen417
-\l__nicematrix_submatrix_extra_height_dim=\dimen418
-\l__nicematrix_submatrix_left_xshift_dim=\dimen419
-\l__nicematrix_submatrix_right_xshift_dim=\dimen420
-\l__nicematrix_brace_yshift_dim=\dimen421
+\l__nicematrix_tmpc_dim=\dimen414
+\l__nicematrix_tmpd_dim=\dimen415
+\l__nicematrix_tmpc_int=\count470
+\g__nicematrix_env_int=\count471
+\l__nicematrix_the_array_box=\box155
+\g__nicematrix_NiceMatrixBlock_int=\count472
+\g__nicematrix_notes_caption_int=\count473
+\l__nicematrix_columns_width_dim=\dimen416
+\l__nicematrix_col_width_dim=\dimen417
+\g__nicematrix_row_total_int=\count474
+\g__nicematrix_col_total_int=\count475
+\g__nicematrix_last_row_node_int=\count476
+\l__nicematrix_key_nb_rows_int=\count477
+\g__nicematrix_blocks_wd_dim=\dimen418
+\g__nicematrix_blocks_ht_dim=\dimen419
+\g__nicematrix_blocks_dp_dim=\dimen420
+\l__nicematrix_width_dim=\dimen421
+\l__nicematrix_tabular_width_dim=\dimen422
+\l__nicematrix_rule_width_before_dim=\dimen423
+\l__nicematrix_rule_width_after_dim=\dimen424
+\l__nicematrix_old_iRow_int=\count478
+\l__nicematrix_old_jCol_int=\count479
+\l__nicematrix_X_columns_dim=\dimen425
+\l__nicematrix_x_initial_dim=\dimen426
+\l__nicematrix_y_initial_dim=\dimen427
+\l__nicematrix_x_final_dim=\dimen428
+\l__nicematrix_y_final_dim=\dimen429
+\g__nicematrix_dp_row_zero_dim=\dimen430
+\g__nicematrix_ht_row_zero_dim=\dimen431
+\g__nicematrix_ht_row_one_dim=\dimen432
+\g__nicematrix_dp_ante_last_row_dim=\dimen433
+\g__nicematrix_ht_last_row_dim=\dimen434
+\g__nicematrix_dp_last_row_dim=\dimen435
+\g__nicematrix_width_last_col_dim=\dimen436
+\g__nicematrix_width_first_col_dim=\dimen437
+\l__nicematrix_multiplicity_int=\count480
+\g__nicematrix_ddots_int=\count481
+\g__nicematrix_iddots_int=\count482
+\g__nicematrix_delta_x_one_dim=\dimen438
+\g__nicematrix_delta_y_one_dim=\dimen439
+\g__nicematrix_delta_x_two_dim=\dimen440
+\g__nicematrix_delta_y_two_dim=\dimen441
+\l__nicematrix_row_min_int=\count483
+\l__nicematrix_row_max_int=\count484
+\l__nicematrix_col_min_int=\count485
+\l__nicematrix_col_max_int=\count486
+\l__nicematrix_initial_i_int=\count487
+\l__nicematrix_initial_j_int=\count488
+\l__nicematrix_final_i_int=\count489
+\l__nicematrix_final_j_int=\count490
+\l__nicematrix_segment_start_int=\count491
+\l__nicematrix_segment_end_int=\count492
+\g__nicematrix_static_num_of_col_int=\count493
+\g__nicematrix_block_box_int=\count494
+\l__nicematrix_first_row_int=\count495
+\l__nicematrix_first_col_int=\count496
+\l__nicematrix_last_row_int=\count497
+\l__nicematrix_last_col_int=\count498
+\c@tabularnote=\count499
+\g__nicematrix_tabularnote_int=\count500
+\c@nicematrix_draft=\count501
+\l__nicematrix_xdots_inter_dim=\dimen442
+\l__nicematrix_xdots_shorten_start_dim=\dimen443
+\l__nicematrix_xdots_shorten_end_dim=\dimen444
+\l__nicematrix_xdots_radius_dim=\dimen445
+\l__nicematrix_width_of_false_dim=\dimen446
+\l__nicematrix_brace_shift_dim=\dimen447
+\l__nicematrix_trees_line_width_dim=\dimen448
+\l__nicematrix_trees_rounded_corners_dim=\dimen449
+\l__nicematrix_tab_rounded_corners_dim=\dimen450
+\l__nicematrix_cell_space_top_limit_dim=\dimen451
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen452
+\l__nicematrix_left_margin_dim=\dimen453
+\l__nicematrix_right_margin_dim=\dimen454
+\l__nicematrix_extra_left_margin_dim=\dimen455
+\l__nicematrix_extra_right_margin_dim=\dimen456
+\c__nicematrix_max_l_dim=\dimen457
+\l__nicematrix_rounded_corners_dim=\dimen458
+\l__nicematrix_position_int=\count502
+\l__nicematrix_start_int=\count503
+\l__nicematrix_end_int=\count504
+\l__nicematrix_line_width_dim=\dimen459
+\l__nicematrix_xoffset_dim=\dimen460
+\l__nicematrix_yoffset_dim=\dimen461
+\l__nicematrix_submatrix_extra_height_dim=\dimen462
+\l__nicematrix_submatrix_left_xshift_dim=\dimen463
+\l__nicematrix_submatrix_right_xshift_dim=\dimen464
+\l__nicematrix_brace_yshift_dim=\dimen465
 ) (/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box152
-\UL@hyphenbox=\box153
-\UL@skip=\skip266
-\UL@hook=\toks56
-\UL@height=\dimen422
-\UL@pe=\count491
-\UL@pixel=\dimen423
-\ULC@box=\box154
+\UL@box=\box156
+\UL@hyphenbox=\box157
+\UL@skip=\skip268
+\UL@hook=\toks59
+\UL@height=\dimen466
+\UL@pe=\count505
+\UL@pixel=\dimen467
+\ULC@box=\box158
 Package: ulem 2019/11/18
-\ULdepth=\dimen424
+\ULdepth=\dimen468
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
@@ -1747,7 +1891,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks57
+\pdftexcmds@toks=\toks60
 ))
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -1757,9 +1901,9 @@ sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen425
-\Hy@linkcounter=\count492
-\Hy@pagecounter=\count493
+\@linkdim=\dimen469
+\Hy@linkcounter=\count506
+\Hy@pagecounter=\count507
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
@@ -1767,7 +1911,7 @@ File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count494
+\Hy@SavedSpaceFactor=\count508
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
 )
@@ -1778,14 +1922,14 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count495
+\c@Hy@tempcnt=\count509
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen426
+\XeTeXLinkMargin=\dimen470
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1795,9 +1939,9 @@ c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count496
-\Field@Width=\dimen427
-\Fld@charsize=\dimen428
+\Fld@menulength=\count510
+\Field@Width=\dimen471
+\Fld@charsize=\dimen472
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -1805,16 +1949,16 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring OFF on input line 6111.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count497
-\c@Item=\count498
-\c@Hfootnote=\count499
+\Hy@abspage=\count511
+\c@Item=\count512
+\c@Hfootnote=\count513
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2026-06-17 v7.01r Hyperref driver for luaTeX
-\Fld@listcount=\count500
-\c@bookmark@seq@number=\count501
+\Fld@listcount=\count514
+\c@bookmark@seq@number=\count515
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfi
 lecheck.sty
@@ -1827,12 +1971,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip267
+\Hy@SectionHShift=\skip269
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
-\c@memhycontfloat=\count502
-\c@mem@Hpagenote=\count503
+\c@memhycontfloat=\count516
+\c@mem@Hpagenote=\count517
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
@@ -1840,7 +1984,7 @@ Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/bookmark/bkm-luatex.de
 f
 File: bkm-luatex.def 2026-05-21 v1.32 bookmark driver for luaTeX (HO)
-\BKM@id=\count504
+\BKM@id=\count518
 ))
 
 ******************************************************
@@ -1862,92 +2006,92 @@ Sidefoothsep and sidefootwidth: 7pt and 92pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 55.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 59.
 luaotfload | cache : Lookup cache loaded from /home/john/.local/opt/texlive/2026
 /texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
-(fontspec)             Noto Emoji scale = 1.4.
+(fontspec)             Noto Emoji scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Emoji scale = 1.4.
+(fontspec)             Noto Emoji scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Emoji/B scale = 1.4.
+(fontspec)             Noto Emoji/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Emoji/I scale = 1.4.
+(fontspec)             Noto Emoji/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Emoji/BI scale = 1.4.
+(fontspec)             Noto Emoji/BI scale = 1.2.
 
 
 Package fontspec Info: 
 (fontspec)             Font family 'NotoEmoji(0)' created for font 'Noto
-(fontspec)             Emoji' with options [Ligatures=TeX,Scale=1.4].
+(fontspec)             Emoji' with options [Ligatures=TeX,Scale=1.2].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Emoji:mode=node;script=DFLT;language=dflt;+tlig;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Emoji/B:mode=node;script=DFLT;language=dflt;+tlig;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Emoji/I:mode=node;script=DFLT;language=dflt;+tlig;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Noto
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Emoji/BI:mode=node;script=DFLT;language=dflt;+tlig;"
 
 
 Package fontspec Info: 
-(fontspec)             Noto Color Emoji scale = 1.4.
+(fontspec)             Noto Color Emoji scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Color Emoji scale = 1.4.
+(fontspec)             Noto Color Emoji scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Color Emoji/B scale = 1.4.
+(fontspec)             Noto Color Emoji/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Color Emoji/I scale = 1.4.
+(fontspec)             Noto Color Emoji/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Noto Color Emoji/BI scale = 1.4.
+(fontspec)             Noto Color Emoji/BI scale = 1.2.
 
 
 Package fontspec Info: 
 (fontspec)             Font family 'NotoColorEmoji(0)' created for font 'Noto
-(fontspec)             Color Emoji' with options [Ligatures=TeX,Scale=1.4].
+(fontspec)             Color Emoji' with options [Ligatures=TeX,Scale=1.2].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Color Emoji:mode=node;script=DFLT;language=dflt;+tlig;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Color
 (fontspec)             Emoji/B:mode=node;script=DFLT;language=dflt;+tlig;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Color
 (fontspec)             Emoji/I:mode=node;script=DFLT;language=dflt;+tlig;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Noto Color
+(fontspec)             <->s*[1.2]"name:Noto Color
 (fontspec)             Emoji/BI:mode=node;script=DFLT;language=dflt;+tlig;"
 
 
 Package fontspec Info: 
-(fontspec)             Noto Sans Symbols 2 scale = 1.4.
+(fontspec)             Noto Sans Symbols 2 scale = 1.2.
 
 
 Package fontspec Info: 
@@ -1966,477 +2110,499 @@ Package fontspec Info:
 
 
 Package fontspec Info: 
-(fontspec)             Noto Sans Symbols 2 scale = 1.4.
+(fontspec)             Noto Sans Symbols 2 scale = 1.2.
 
 
 Package fontspec Info: 
 (fontspec)             Font family 'NotoSansSymbols2(0)' created for font
 (fontspec)             'Noto Sans Symbols 2' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4].
+(fontspec)             [Ligatures=TeX,Scale=1.2].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.4]"name:Noto
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans Symbols
 (fontspec)             2:mode=node;script=DFLT;language=dflt;+tlig;"
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Sans/BI" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/B scale = 1.4.
+(fontspec)             Noto Sans/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/B scale = 1.4.
+(fontspec)             Noto Sans/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/I scale = 1.4.
+(fontspec)             Noto Sans/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/I scale = 1.4.
+(fontspec)             Noto Sans/BI scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusSans(0)' created for font
-(fontspec)             'Libertinus Sans' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Ligatures=TeX].
+(fontspec)             Noto Sans/BI scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSans(0)' created for font 'Noto Sans'
+(fontspec)             with options [Ligatures=TeX,Scale=1.2,Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans:mode=node;script=latn;language=dflt;+tlig;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans/B:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans/I:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans/I:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto
+(fontspec)             Sans/BI:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto
+(fontspec)             Sans/BI:mode=node;script=latn;language=dflt;+tlig;+smcp;
+"
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Sans/BI" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/B scale = 1.4.
+(fontspec)             Noto Sans/B scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/B scale = 1.4.
+(fontspec)             Noto Sans/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/I scale = 1.4.
+(fontspec)             Noto Sans/I scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans/I scale = 1.4.
+(fontspec)             Noto Sans/BI scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusSans(1)' created for font
-(fontspec)             'Libertinus Sans' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic].
+(fontspec)             Noto Sans/BI scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSans(1)' created for font 'Noto Sans'
+(fontspec)             with options [Ligatures=TeX,Scale=1.2,Renderer=Basic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans:mode=base;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans:mode=base;script=latn;language=dflt;+tlig;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans/B:mode=base;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans/B:mode=base;script=latn;language=dflt;+tlig;+smcp;"
 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.2]"name:Noto
 (fontspec)             Sans/I:mode=base;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
+(fontspec)             <->s*[1.2]"name:Noto
 (fontspec)             Sans/I:mode=base;script=latn;language=dflt;+tlig;+smcp;"
 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto
+(fontspec)             Sans/BI:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto
+(fontspec)             Sans/BI:mode=base;script=latn;language=dflt;+tlig;+smcp;
+"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusSans(1)/m/n on input line 
-77.
+(Font)                  OT1/cmr/m/n --> TU/NotoSans(1)/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LibertinusSans(1)/m/it on input lin
-e 77.
+(Font)                  OT1/cmr/m/it --> TU/NotoSans(1)/m/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusSans(1)/b/n on input line
- 77.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 77.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(1)/b/n on input line 85.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 85.
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Sans scale = 1.4.
+(fontspec)             Noto Sans scale = 1.2.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LibertinusSans(1)/m/n on input line
- 78.
+(Font)                  OT1/cmss/m/n --> TU/NotoSans(1)/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/LibertinusSans(1)/b/n on input lin
-e 78.
+(Font)                  OT1/cmss/bx/n --> TU/NotoSans(1)/b/n on input line 86.
 
 Package fontspec Info: 
-(fontspec)             Libertinus Mono scale = 1.4.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/BI" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             Noto Sans Mono scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/B" (it probably
+(fontspec)             Could not resolve font "Noto Sans Mono/BI" (it probably
 (fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/I" (it probably
+(fontspec)             Could not resolve font "Noto Sans Mono/I" (it probably
 (fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Mono scale = 1.4.
+(fontspec)             Noto Sans Mono scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMono(0)' created for font
-(fontspec)             'Libertinus Mono' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,WordSpace={1,0,0},HyphenChar=No
+(fontspec)             Noto Sans Mono scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Noto Sans Mono/B scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Noto Sans Mono/B scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSansMono(0)' created for font 'Noto
+(fontspec)             Sans Mono' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,WordSpace={1,0,0},HyphenChar=No
 ne,PunctuationSpace=WordSpace].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
-(fontspec)             Mono:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
+(fontspec)             Sans Mono:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto Sans
+(fontspec)             Mono:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
+(fontspec)             Sans Mono/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto Sans
+(fontspec)             Mono/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Mono scale = 1.4.
+(fontspec)             Noto Sans Mono scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/BI" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/B" (it probably
+(fontspec)             Could not resolve font "Noto Sans Mono/BI" (it probably
 (fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Mono/I" (it probably
+(fontspec)             Could not resolve font "Noto Sans Mono/I" (it probably
 (fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Mono scale = 1.4.
+(fontspec)             Noto Sans Mono scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMono(1)' created for font
-(fontspec)             'Libertinus Mono' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic].
+(fontspec)             Noto Sans Mono scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Noto Sans Mono/B scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Noto Sans Mono/B scale = 1.2.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSansMono(1)' created for font 'Noto
+(fontspec)             Sans Mono' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,Renderer=Basic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
-(fontspec)             Mono:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"name:Noto
+(fontspec)             Sans Mono:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto Sans
+(fontspec)             Mono:mode=base;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"name:Noto
+(fontspec)             Sans Mono/B:mode=base;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"name:Noto Sans
+(fontspec)             Mono/B:mode=base;script=latn;language=dflt;+tlig;+smcp;"
+
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/m/n on input line
- 79.
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/m/n on input line 8
+7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/b/n on input line
- 79.
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/b/n on input line 8
+7.
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Math/B" (it probably
-(fontspec)             doesn't exist).
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMath(0)' created for font
-(fontspec)             'Libertinus Math' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic,BoldItalicFont={
-},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex}].
-
+(fontspec)             Font family 'NotoSansMath-Regular(0)' created for font
+(fontspec)             'NotoSansMath-Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,Renderer=Basic,BoldItalicFont={
+},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex},P
+ath={/home/john/.local/share/fonts/},Extension={.ttf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;"
+(fontspec)             <->s*[1.2]"[/home/john/.local/share/fonts/NotoSansMath-R
+egular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;"
 
-LaTeX Font Info:    Font shape `TU/LibertinusMath(0)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 80.
-
-Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
-
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(0)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 91.
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Math/B" (it probably
-(fontspec)             doesn't exist).
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMath(1)' created for font
-(fontspec)             'Libertinus Math' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic,BoldItalicFont={
-},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8
-.4-10.8,Font=Libertinus
-(fontspec)             Math,Style=MathScript},{Size=-8.4,Font=Libertinus
-(fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
-xetex}].
+(fontspec)             Font family 'NotoSansMath-Regular(1)' created for font
+(fontspec)             'NotoSansMath-Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,Renderer=Basic,BoldItalicFont={
+},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.6-},{Size=6.
+6-9.6,Font=NotoSansMath-Regular,Style=MathScript},{Size=-6.6,Font=NotoSansMath-
+Regular,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Path={/home/j
+ohn/.local/share/fonts/},Extension={.ttf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;"<8.4-10.8>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;+ssty=1;"
+(fontspec)             <9.6->s*[1.2]"[/home/john/.local/share/fonts/NotoSansMat
+h-Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;"<
+6.6-9.6>s*[1.2]"[/home/john/.local/share/fonts/NotoSansMath-Regular.ttf]:mode=b
+ase;script=math;language=dflt;+tlig;mathfontdimen=xetex;+ssty=0;"<-6.6>s*[1.2]"
+[/home/john/.local/share/fonts/NotoSansMath-Regular.ttf]:mode=base;script=math;
+language=dflt;+tlig;mathfontdimen=xetex;+ssty=1;"
 
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 80.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(1)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 91.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 80.
+(Font)              `operators' in the math version `normal' on input line 91.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 
-80.
+(Font)                  OT1/cmr/m/n --> TU/NotoSansMath-Regular(1)/m/n on input
+ line 91.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 80.
+(Font)              `operators' in the math version `bold' on input line 91.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line
- 80.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSansMath-Regular(1)/b/n on inpu
+t line 91.
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Math/B" (it probably
-(fontspec)             doesn't exist).
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMath(2)' created for font
-(fontspec)             'Libertinus Math' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic,BoldItalicFont={
-},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8
-.4-10.8,Font=Libertinus
-(fontspec)             Math,Style=MathScript},{Size=-8.4,Font=Libertinus
-(fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
-xetex},RawFeature={mathfontdimen=tex2}].
+(fontspec)             Font family 'NotoSansMath-Regular(2)' created for font
+(fontspec)             'NotoSansMath-Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,Renderer=Basic,BoldItalicFont={
+},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.6-},{Size=6.
+6-9.6,Font=NotoSansMath-Regular,Style=MathScript},{Size=-6.6,Font=NotoSansMath-
+Regular,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Path={/home/j
+ohn/.local/share/fonts/},Extension={.ttf},RawFeature={mathfontdimen=tex2}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex2;"<8.4-10.8>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex2;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex2;+ssty=1;"
+(fontspec)             <9.6->s*[1.2]"[/home/john/.local/share/fonts/NotoSansMat
+h-Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;ma
+thfontdimen=tex2;"<6.6-9.6>s*[1.2]"[/home/john/.local/share/fonts/NotoSansMath-
+Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;math
+fontdimen=tex2;+ssty=0;"<-6.6>s*[1.2]"[/home/john/.local/share/fonts/NotoSansMa
+th-Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;m
+athfontdimen=tex2;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 80.
+(Font)              `symbols' in the math version `normal' on input line 91.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line
- 80.
+(Font)                  OMS/cmsy/m/n --> TU/NotoSansMath-Regular(2)/m/n on inpu
+t line 91.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 80.
+(Font)              `symbols' in the math version `bold' on input line 91.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line
- 80.
+(Font)                  OMS/cmsy/b/n --> TU/NotoSansMath-Regular(2)/b/n on inpu
+t line 91.
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Libertinus Math/B" (it probably
-(fontspec)             doesn't exist).
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Libertinus Math scale = 1.4.
+(fontspec)             NotoSansMath-Regular scale = 1.2.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'LibertinusMath(3)' created for font
-(fontspec)             'Libertinus Math' with options
-(fontspec)             [Ligatures=TeX,Scale=1.4,Renderer=Basic,BoldItalicFont={
-},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8
-.4-10.8,Font=Libertinus
-(fontspec)             Math,Style=MathScript},{Size=-8.4,Font=Libertinus
-(fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
-xetex},RawFeature={mathfontdimen=tex3}].
+(fontspec)             Font family 'NotoSansMath-Regular(3)' created for font
+(fontspec)             'NotoSansMath-Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=1.2,Renderer=Basic,BoldItalicFont={
+},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.6-},{Size=6.
+6-9.6,Font=NotoSansMath-Regular,Style=MathScript},{Size=-6.6,Font=NotoSansMath-
+Regular,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Path={/home/j
+ohn/.local/share/fonts/},Extension={.ttf},RawFeature={mathfontdimen=tex3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex3;"<8.4-10.8>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex3;+ssty=0;"<-8.4>s*[1.4]"name:Libertinus
-(fontspec)             Math:mode=base;script=math;language=dflt;+tlig;mathfontd
-imen=xetex;mathfontdimen=tex3;+ssty=1;"
+(fontspec)             <9.6->s*[1.2]"[/home/john/.local/share/fonts/NotoSansMat
+h-Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;ma
+thfontdimen=tex3;"<6.6-9.6>s*[1.2]"[/home/john/.local/share/fonts/NotoSansMath-
+Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;math
+fontdimen=tex3;+ssty=0;"<-6.6>s*[1.2]"[/home/john/.local/share/fonts/NotoSansMa
+th-Regular.ttf]:mode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;m
+athfontdimen=tex3;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 8
-0.
+(Font)              `largesymbols' in the math version `normal' on input line 9
+1.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line
- 80.
+(Font)                  OMX/cmex/m/n --> TU/NotoSansMath-Regular(3)/m/n on inpu
+t line 91.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 80.
+(Font)              `largesymbols' in the math version `bold' on input line 91.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line
- 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 16.79993pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 80.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 80.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
+(Font)                  OMX/cmex/m/n --> TU/NotoSansMath-Regular(3)/b/n on inpu
+t line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(1)/m/n' will be
+(Font)              scaled to size 8.63997pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(1)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(2)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(2)/m/n' will be
+(Font)              scaled to size 8.63997pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(3)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(3)/m/n' will be
+(Font)              scaled to size 8.63997pt on input line 91.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
 
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c@postulate=\count505
-\c@example=\count506
+\c@postulate=\count519
+\c@example=\count520
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -2483,6 +2649,9 @@ Package unicode-math Warning: I'm going to overwrite the following commands
 (unicode-math)                colon-like commands, using them will lead to
 (unicode-math)                inconsistencies.
 
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen473
+\MT@vwid@rightmargin=\dimen474
 LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Applying patch `item' on input line 11.
 Package microtype Info: Applying patch `toc' on input line 11.
@@ -2501,24 +2670,24 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSans' (encoding: TU).
+(microtype)             `NotoSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count507
-\scratchdimen=\dimen429
-\scratchbox=\box155
-\nofMPsegments=\count508
-\nofMParguments=\count509
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count510
-\MPscratchDim=\dimen430
-\MPnumerator=\count511
-\makeMPintoPDFobject=\count512
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count521
+\scratchdimen=\dimen475
+\scratchbox=\box159
+\nofMPsegments=\count522
+\nofMParguments=\count523
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count524
+\MPscratchDim=\dimen476
+\MPnumerator=\count525
+\makeMPintoPDFobject=\count526
+\everyMPtoPDFconversion=\toks62
 )
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-
 base.sty
@@ -2531,7 +2700,7 @@ ys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count513
+\c@lstlisting=\count527
 \Etoc@tf=\read4
 Package etoc Info: Regarding `memoir' class command \settocdepth, consider
 (etoc)             \etocsettocdepth.toc as a drop-in replacement with more
@@ -2541,18 +2710,18 @@ Package etoc Info: Regarding `memoir' class command \settocdepth, consider
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c__nicematrix_shift_Ldots_last_row_dim=\dimen431
-\c__nicematrix_innersep_middle_dim=\dimen432
-\c@tabularnotesi=\count514
-\enitdp@tabularnotes=\count515
-\c@tabularnotes*i=\count516
-\enitdp@tabularnotes*=\count517
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen477
+\c__nicematrix_innersep_middle_dim=\dimen478
+\c@tabularnotesi=\count528
+\enitdp@tabularnotes=\count529
+\c@tabularnotes*i=\count530
+\enitdp@tabularnotes*=\count531
 Package hyperref Info: Link coloring ON on input line 11.
  (./titlepage.tex
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 34.83185pt on input line 7.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 24.19188pt on input line 9.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 29.85593pt on input line 7.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 20.73593pt on input line 9.
  [1
 
 
@@ -2563,14 +2732,284 @@ LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
 \tf@toc=\write5
 
 \openout5 = geometry.toc
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 34.83185pt on input line 18.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 16.79993pt on input line 18.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
+(Font)              scaled to size 29.85593pt on input line 18.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
+(Font)              scaled to size 14.39996pt on input line 18.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusMath' (encoding: TU).
+(microtype)             `NotoSansMath-Regular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/7.2'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 
 (/home/john/.local/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -2579,176 +3018,416 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 (./preface.tex
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 13.99994pt on input line 1.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 1.
  [1] [2
 
 ]) [3] [4
 
 ]
 Chapter 1.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 20.1599pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 20.1599pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 24.19188pt on input line 54.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/it' will be
-(Font)              scaled to size 16.79993pt on input line 58.
-<figures/1/1-1.pdf, id=87, 17.396pt x 16.96638pt>
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
+(Font)              scaled to size 20.73593pt on input line 50.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 17.27994pt on input line 52.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
+(Font)              scaled to size 17.27994pt on input line 52.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/it' will be
+(Font)              scaled to size 14.39996pt on input line 54.
+<figures/1/1-1.pdf, id=90, 17.396pt x 16.96638pt>
 File: figures/1/1-1.pdf Graphic file (type pdf)
 <use figures/1/1-1.pdf>
-Package luatex.def Info: figures/1/1-1.pdf  used on input line 67.
+Package luatex.def Info: figures/1/1-1.pdf  used on input line 63.
 (luatex.def)             Requested size: 42.32097pt x 41.27907pt.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(1)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 15.32993pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 11.19995pt on input line 68.
-LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
-(Font)              scaled to size 8.39996pt on input line 68.
-<figures/1/1-2.pdf, id=88, 178.15459pt x 72.57112pt>
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 13.13995pt on input line 64.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(1)/m/n' will be
+(Font)              scaled to size 13.13995pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(1)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(2)/m/n' will be
+(Font)              scaled to size 13.13995pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(2)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(3)/m/n' will be
+(Font)              scaled to size 13.13995pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NotoSansMath-Regular(3)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 64.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/NotoSansMath-Regular(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+<figures/1/1-2.pdf, id=91, 178.15459pt x 72.57112pt>
 File: figures/1/1-2.pdf Graphic file (type pdf)
 <use figures/1/1-2.pdf>
-Package luatex.def Info: figures/1/1-2.pdf  used on input line 81.
+Package luatex.def Info: figures/1/1-2.pdf  used on input line 77.
 (luatex.def)             Requested size: 185.15323pt x 75.42677pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 <./figures/1/1-1.pdf>]
-<figures/1/1-3.pdf, id=108, 146.66394pt x 61.30504pt>
+<figures/1/1-3.pdf, id=111, 146.66394pt x 61.30504pt>
 File: figures/1/1-3.pdf Graphic file (type pdf)
 <use figures/1/1-3.pdf>
-Package luatex.def Info: figures/1/1-3.pdf  used on input line 96.
+Package luatex.def Info: figures/1/1-3.pdf  used on input line 92.
 (luatex.def)             Requested size: 185.15323pt x 77.39722pt.
-<figures/1/1-4.pdf, id=109, 195.3428pt x 129.7889pt>
+<figures/1/1-4.pdf, id=112, 195.3428pt x 129.7889pt>
 File: figures/1/1-4.pdf Graphic file (type pdf)
 <use figures/1/1-4.pdf>
-Package luatex.def Info: figures/1/1-4.pdf  used on input line 111.
-(luatex.def)             Requested size: 205.8327pt x 136.76753pt.
+Package luatex.def Info: figures/1/1-4.pdf  used on input line 107.
+(luatex.def)             Requested size: 202.76071pt x 134.72572pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2<./figures/1/1-2.pdf><./figures/1/1-3.pdf><./figures/1/1-4.pdf>]
-<figures/1/1-5.pdf, id=148, 124.7079pt x 39.66217pt>
+<figures/1/1-5.pdf, id=154, 124.7079pt x 39.66217pt>
 File: figures/1/1-5.pdf Graphic file (type pdf)
 <use figures/1/1-5.pdf>
-Package luatex.def Info: figures/1/1-5.pdf  used on input line 153.
+Package luatex.def Info: figures/1/1-5.pdf  used on input line 149.
 (luatex.def)             Requested size: 185.15323pt x 58.88786pt.
-<figures/1/1-6.pdf, id=149, 124.61055pt x 82.34062pt>
+<figures/1/1-6.pdf, id=155, 124.61055pt x 82.34062pt>
 File: figures/1/1-6.pdf Graphic file (type pdf)
 <use figures/1/1-6.pdf>
-Package luatex.def Info: figures/1/1-6.pdf  used on input line 166.
+Package luatex.def Info: figures/1/1-6.pdf  used on input line 162.
 (luatex.def)             Requested size: 185.15323pt x 122.3459pt.
-
-Underfull \vbox (badness 4792) has occurred while \output is active []
-
- [3<./figures/1/1-5.pdf>]
-<figures/1/1-7.pdf, id=181, 153.06384pt x 26.02121pt>
+<figures/1/1-7.pdf, id=156, 153.06384pt x 26.02121pt>
 File: figures/1/1-7.pdf Graphic file (type pdf)
 <use figures/1/1-7.pdf>
-Package luatex.def Info: figures/1/1-7.pdf  used on input line 177.
+Package luatex.def Info: figures/1/1-7.pdf  used on input line 173.
 (luatex.def)             Requested size: 211.59677pt x 35.97202pt.
-<figures/1/1-8.pdf, id=182, 124.61154pt x 60.93465pt>
+ [3<./figures/1/1-5.pdf><./figures/1/1-6.pdf>]
+<figures/1/1-8.pdf, id=203, 124.61154pt x 60.93465pt>
 File: figures/1/1-8.pdf Graphic file (type pdf)
 <use figures/1/1-8.pdf>
-Package luatex.def Info: figures/1/1-8.pdf  used on input line 190.
-(luatex.def)             Requested size: 180.1095pt x 88.07402pt.
- [4<./figures/1/1-6.pdf><./figures/1/1-7.pdf><./figures/1/1-8.pdf>]
-<figures/1/1-9.pdf, id=231, 102.66154pt x 53.47879pt>
+Package luatex.def Info: figures/1/1-8.pdf  used on input line 186.
+(luatex.def)             Requested size: 177.42142pt x 86.75931pt.
+<figures/1/1-9.pdf, id=204, 102.66154pt x 53.47879pt>
 File: figures/1/1-9.pdf Graphic file (type pdf)
 <use figures/1/1-9.pdf>
-Package luatex.def Info: figures/1/1-9.pdf  used on input line 239.
+Package luatex.def Info: figures/1/1-9.pdf  used on input line 235.
 (luatex.def)             Requested size: 185.15323pt x 96.4551pt.
-<figures/1/1-10.pdf, id=232, 181.21602pt x 166.98987pt>
+<figures/1/1-10.pdf, id=205, 181.21602pt x 166.98987pt>
 File: figures/1/1-10.pdf Graphic file (type pdf)
 <use figures/1/1-10.pdf>
-Package luatex.def Info: figures/1/1-10.pdf  used on input line 239.
+Package luatex.def Info: figures/1/1-10.pdf  used on input line 235.
 (luatex.def)             Requested size: 185.15323pt x 170.62807pt.
-<figures/1/1-11.pdf, id=233, 124.21104pt x 67.30545pt>
+<figures/1/1-11.pdf, id=206, 124.21104pt x 67.30545pt>
 File: figures/1/1-11.pdf Graphic file (type pdf)
 <use figures/1/1-11.pdf>
-Package luatex.def Info: figures/1/1-11.pdf  used on input line 255.
-(luatex.def)             Requested size: 154.37845pt x 83.65712pt.
-<figures/1/1-12.pdf, id=234, 124.21104pt x 94.59741pt>
+Package luatex.def Info: figures/1/1-11.pdf  used on input line 251.
+(luatex.def)             Requested size: 152.07439pt x 82.4083pt.
+<figures/1/1-12.pdf, id=207, 124.21104pt x 94.59741pt>
 File: figures/1/1-12.pdf Graphic file (type pdf)
 <use figures/1/1-12.pdf>
-Package luatex.def Info: figures/1/1-12.pdf  used on input line 259.
-(luatex.def)             Requested size: 154.37845pt x 117.57959pt.
-<figures/1/1-13.pdf, id=235, 124.21104pt x 124.95282pt>
+Package luatex.def Info: figures/1/1-12.pdf  used on input line 255.
+(luatex.def)             Requested size: 152.07439pt x 115.82436pt.
+<figures/1/1-13.pdf, id=208, 124.21104pt x 124.95282pt>
 File: figures/1/1-13.pdf Graphic file (type pdf)
 <use figures/1/1-13.pdf>
-Package luatex.def Info: figures/1/1-13.pdf  used on input line 263.
-(luatex.def)             Requested size: 154.37845pt x 155.30975pt.
- [5<./figures/1/1-9.pdf><./figures/1/1-10.pdf>]
-<figures/1/1-14.pdf, id=268, 121.66855pt x 72.07126pt>
+Package luatex.def Info: figures/1/1-13.pdf  used on input line 259.
+(luatex.def)             Requested size: 152.07439pt x 152.9913pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4<./figures/1/1-7.pdf><./figures/1/1-8.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5<./figures/1/1-9.pdf><./figures/1/1-10.pdf><./figures/1/1-11.pdf><./figures/1
+/1-12.pdf>]
+<figures/1/1-14.pdf, id=293, 121.66855pt x 72.07126pt>
 File: figures/1/1-14.pdf Graphic file (type pdf)
 <use figures/1/1-14.pdf>
-Package luatex.def Info: figures/1/1-14.pdf  used on input line 286.
-(luatex.def)             Requested size: 205.8327pt x 121.93774pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6<./figures/1/1-11.pdf><./figures/1/1-12.pdf><./figures/1/1-13.pdf>]
-<figures/1/2-1.pdf, id=306, 116.61166pt x 84.79178pt>
+Package luatex.def Info: figures/1/1-14.pdf  used on input line 283.
+(luatex.def)             Requested size: 202.76071pt x 120.11772pt.
+<figures/1/2-1.pdf, id=294, 116.61166pt x 84.79178pt>
 File: figures/1/2-1.pdf Graphic file (type pdf)
 <use figures/1/2-1.pdf>
-Package luatex.def Info: figures/1/2-1.pdf  used on input line 309.
-(luatex.def)             Requested size: 180.1095pt x 130.96399pt.
-<figures/1/2-2.pdf, id=307, 116.61166pt x 45.9577pt>
+Package luatex.def Info: figures/1/2-1.pdf  used on input line 306.
+(luatex.def)             Requested size: 177.42142pt x 129.01033pt.
+<figures/1/2-2.pdf, id=295, 116.61166pt x 45.9577pt>
 File: figures/1/2-2.pdf Graphic file (type pdf)
 <use figures/1/2-2.pdf>
-Package luatex.def Info: figures/1/2-2.pdf  used on input line 318.
-(luatex.def)             Requested size: 180.1095pt x 70.98334pt.
+Package luatex.def Info: figures/1/2-2.pdf  used on input line 315.
+(luatex.def)             Requested size: 177.42142pt x 69.92444pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [7<./figures/1/1-14.pdf><./figures/1/2-1.pdf>]
-<figures/1/2-3.pdf, id=350, 139.3737pt x 52.85446pt>
+ [6<./figures/1/1-13.pdf><./figures/1/1-14.pdf>]
+<figures/1/2-3.pdf, id=323, 139.3737pt x 52.85446pt>
 File: figures/1/2-3.pdf Graphic file (type pdf)
 <use figures/1/2-3.pdf>
-Package luatex.def Info: figures/1/2-3.pdf  used on input line 343.
+Package luatex.def Info: figures/1/2-3.pdf  used on input line 340.
 (luatex.def)             Requested size: 185.15323pt x 70.22212pt.
-<figures/1/2-4.pdf, id=351, 139.3737pt x 52.76413pt>
+<figures/1/2-4.pdf, id=324, 139.3737pt x 52.76413pt>
 File: figures/1/2-4.pdf Graphic file (type pdf)
 <use figures/1/2-4.pdf>
-Package luatex.def Info: figures/1/2-4.pdf  used on input line 343.
+Package luatex.def Info: figures/1/2-4.pdf  used on input line 340.
 (luatex.def)             Requested size: 185.15323pt x 70.10211pt.
-<figures/1/2-5.pdf, id=352, 146.80045pt x 53.0pt>
+<figures/1/2-5.pdf, id=325, 146.80045pt x 53.0pt>
 File: figures/1/2-5.pdf Graphic file (type pdf)
 <use figures/1/2-5.pdf>
-Package luatex.def Info: figures/1/2-5.pdf  used on input line 353.
-(luatex.def)             Requested size: 180.1095pt x 65.02704pt.
-<figures/1/2-6.pdf, id=353, 146.80045pt x 53.0pt>
+Package luatex.def Info: figures/1/2-5.pdf  used on input line 350.
+(luatex.def)             Requested size: 177.42142pt x 64.0566pt.
+ [7<./figures/1/2-1.pdf><./figures/1/2-2.pdf><./figures/1/2-3.pdf><./figures/1/2
+-4.pdf>]
+<figures/1/2-6.pdf, id=396, 146.80045pt x 53.0pt>
 File: figures/1/2-6.pdf Graphic file (type pdf)
 <use figures/1/2-6.pdf>
-Package luatex.def Info: figures/1/2-6.pdf  used on input line 364.
-(luatex.def)             Requested size: 180.1095pt x 65.02704pt.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 13.43994pt on input line 372.
-LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 372.
+Package luatex.def Info: figures/1/2-6.pdf  used on input line 361.
+(luatex.def)             Requested size: 177.42142pt x 64.0566pt.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 8.63997pt on input line 369.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 369.
+<figures/1/2-7.pdf, id=397, 75.77107pt x 53.72873pt>
+File: figures/1/2-7.pdf Graphic file (type pdf)
+<use figures/1/2-7.pdf>
+Package luatex.def Info: figures/1/2-7.pdf  used on input line 404.
+(luatex.def)             Requested size: 116.38065pt x 82.53015pt.
+<figures/1/2-8.pdf, id=398, 202.79965pt x 202.79965pt>
+File: figures/1/2-8.pdf Graphic file (type pdf)
+<use figures/1/2-8.pdf>
+Package luatex.def Info: figures/1/2-8.pdf  used on input line 437.
+(luatex.def)             Requested size: 202.76071pt x 202.76201pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8<./figures/1/2-2.pdf><./figures/1/2-3.pdf><./figures/1/2-4.pdf><./figures/1/2
--5.pdf>]
-[9<./figures/1/2-6.pdf>] [10
+ [8<./figures/1/2-5.pdf><./figures/1/2-6.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [9<./figures/1/2-7.pdf><./figures/1/2-8.pdf>]
+<figures/1/3-1.png, id=461, 347.2975pt x 94.3525pt>
+File: figures/1/3-1.png Graphic file (type png)
+<use figures/1/3-1.png>
+Package luatex.def Info: figures/1/3-1.png  used on input line 483.
+(luatex.def)             Requested size: 211.59677pt x 57.48726pt.
+<figures/1/3-2.png, id=462, 348.30125pt x 126.4725pt>
+File: figures/1/3-2.png Graphic file (type png)
+<use figures/1/3-2.png>
+Package luatex.def Info: figures/1/3-2.png  used on input line 489.
+(luatex.def)             Requested size: 211.59677pt x 76.83354pt.
+LaTeX Font Info:    Font shape `TU/NotoSans(1)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 498.
+LaTeX Font Info:    Font shape `TU/NotoSans(1)/m/n' will be
+(Font)              scaled to size 8.63997pt on input line 498.
+LaTeX Font Info:    Font shape `TU/NotoSans(1)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 498.
+<figures/1/3-3.png, id=463, 388.45125pt x 398.48875pt>
+File: figures/1/3-3.png Graphic file (type png)
+<use figures/1/3-3.png>
+Package luatex.def Info: figures/1/3-3.png  used on input line 502.
+(luatex.def)             Requested size: 152.07439pt x 156.00586pt.
+ [10<./figures/1/3-1.png><./figures/1/3-2.png><./figures/1/3-3.png>]
+<figures/1/3-4.png, id=477, 351.3125pt x 95.35625pt>
+File: figures/1/3-4.png Graphic file (type png)
+<use figures/1/3-4.png>
+Package luatex.def Info: figures/1/3-4.png  used on input line 526.
+(luatex.def)             Requested size: 152.07439pt x 41.27882pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11<./figures/1/3-4.png>]
+Overfull \hbox (9.8775pt too wide) in paragraph at lines 556--560
+\TU/NotoSans(0)/m/n/12 The co-or-di-nates of the mid-point of a seg-ment are the
+ av-er-ages of the $\TU/NotoSansMath-Regular(1)/m/n/12 𝑥$\TU/NotoSans(0)/m/n
+/12 -coordinates
+ []
+
+<figures/1/3-5.png, id=485, 412.54124pt x 347.2975pt>
+File: figures/1/3-5.png Graphic file (type png)
+<use figures/1/3-5.png>
+Package luatex.def Info: figures/1/3-5.png  used on input line 571.
+(luatex.def)             Requested size: 211.59677pt x 178.13155pt.
+<figures/1/3-6.png, id=486, 333.245pt x 330.23375pt>
+File: figures/1/3-6.png Graphic file (type png)
+<use figures/1/3-6.png>
+Package luatex.def Info: figures/1/3-6.png  used on input line 584.
+(luatex.def)             Requested size: 177.42142pt x 175.8192pt.
+<figures/1/3-7.png, id=487, 333.245pt x 330.23375pt>
+File: figures/1/3-7.png Graphic file (type png)
+<use figures/1/3-7.png>
+Package luatex.def Info: figures/1/3-7.png  used on input line 592.
+(luatex.def)             Requested size: 177.42142pt x 175.8192pt.
+[12<./figures/1/3-5.png><./figures/1/3-6.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13<./figures/1/3-7.png>] [14]
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -2756,7 +3435,8 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                With LuaTeX, lipsum requires babel to get proper
 (lipsum)                hyphenation (you can use \usepackage[base]{babel}).
 
-[11
+[15
+
 
 ] (./geometry.aux)
  ***********
@@ -2766,24 +3446,42 @@ L3 programming layer <2020/03/25>
 )
 
 Here is how much of LuaTeX's memory you used:
- 49905 strings out of 475704
- 125061,1977958 words of node,token memory allocated
- 2082 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
-kern, 4 glyph, 83 attribute, 199 glue_spec, 83 attribute_list, 3 write, 24 pdf_l
-iteral, 24 pdf_colorstack nodes
-   avail lists: 1:5,2:1732,3:926,4:96,5:296,6:51,7:3880,8:9,9:665,10:9,11:364
- 71672 multiletter control sequences out of 65536+600000
- 135 fonts using 58719983 bytes
- 107i,15n,104p,1004b,1459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/john/.local/share/fonts/Libertinus-OTF/LibertinusMath-Regular.otf></home/
-john/.local/share/fonts/Libertinus-OTF/LibertinusSans-Italic.otf></home/john/.lo
-cal/share/fonts/Libertinus-OTF/LibertinusSans-Bold.otf></home/john/.local/share/
-fonts/Libertinus-OTF/LibertinusSans-Regular.otf>
-Output written on geometry.pdf (17 pages, 117158 bytes).
+ 52508 strings out of 475704
+ 125061,2373549 words of node,token memory allocated
+ 2112 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 
+92 attribute, 200 glue_spec, 92 attribute_list, 3 write, 24 pdf_literal, 24 pdf_
+colorstack nodes
+   avail lists: 1:8,2:1853,3:873,4:127,5:263,6:59,7:3899,8:33,9:754,10:12,11:364
 
-PDF statistics: 502 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 1048576)
- 344 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 74115 multiletter control sequences out of 65536+600000
+ 138 fonts using 73297087 bytes
+ 107i,15n,118p,1004b,1466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'section*.32'
+
+warning  (pdf backend): unreferenced destination with name 'section*.28'
+
+warning  (pdf backend): unreferenced destination with name 'section*.23'
+
+warning  (pdf backend): unreferenced destination with name 'section*.21'
+
+warning  (pdf backend): unreferenced destination with name 'section*.18'
+
+warning  (pdf backend): unreferenced destination with name 'section*.14'
+
+warning  (pdf backend): unreferenced destination with name 'section*.9'
+
+warning  (pdf backend): unreferenced destination with name 'section*.4'
+</home/john/.local/share/fonts/NotoSansMath-Regular.ttf></usr/share/fonts/truety
+pe/noto/NotoSans-Regular.ttf></home/john/.local/share/fonts/NotoSansMath-Regular
+.ttf></usr/share/fonts/truetype/noto/NotoSans-Italic.ttf></usr/share/fonts/truet
+ype/noto/NotoSans-Bold.ttf></usr/share/fonts/truetype/noto/NotoSans-Regular.ttf>
+
+Output written on geometry.pdf (21 pages, 655395 bytes).
+
+PDF statistics: 620 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 1048576)
+ 376 words of extra memory for PDF output out of 10000 (max. 100000000)
 

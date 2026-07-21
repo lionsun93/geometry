@@ -14,6 +14,10 @@
 % character protrusion
 \usepackage{tikz}                        % Create vector graphics and diagrams
 \usepackage{graphicx}                    % Include and manipulate images
+\usepackage{witharrows}                  % Annotating with arrows inside Latex
+\usepackage{adjustbox}
+\usepackage{empheq}
+\usepackage{pifont}
 \usepackage{booktabs}                    % Professional-quality tables
 \usepackage{array}                       % Extended table column formatting
 \usepackage{enumitem}                    % Customize lists and enumerations
@@ -65,7 +69,7 @@
 
 \defaultfontfeatures{
   Ligatures=TeX,
-  Scale=1.4,
+  Scale=1.2,
 }
 \setlength{\parindent}{0pt}
 \nonzeroparskip
@@ -73,10 +77,42 @@
 \newfontfamily\emojifont{Noto Emoji}
 \newfontfamily\coloremojifont{Noto Color Emoji}
 \newfontfamily\notosanssymbols{Noto Sans Symbols 2}
-\setmainfont{Libertinus Sans}
-\setsansfont{Libertinus Sans}
-\setmonofont{Libertinus Mono}
-\setmathfont{Libertinus Math}
+%\setmainfont{Libertinus Sans}
+%\setsansfont{Libertinus Sans}
+%\setmonofont{Libertinus Mono}
+%\setmathfont{Libertinus Math}
+\setmainfont{Noto Sans}
+\setsansfont{Noto Sans}
+\setmonofont{Noto Sans Mono}
+\setmathfont[
+Path=/home/john/.local/share/fonts/,
+Extension=.ttf
+]{NotoSansMath-Regular}
+
+\makechapterstyle{mystyle}{%
+  % Chapter
+  \renewcommand{\chapnamefont}{\Huge\bfseries\color{MidnightBlue}}
+  \renewcommand{\chapnumfont}{\Huge\bfseries\color{MidnightBlue}}
+  \renewcommand{\chaptitlefont}{\Huge\bfseries\color{MidnightBlue}}
+
+  % Section
+  \setsecheadstyle{%
+    \Large\bfseries\color{MidnightBlue}
+  }
+
+  % Subsection
+  \setsubsecheadstyle{%
+    \large\bfseries\color{MidnightBlue}
+    \MakeUppercase
+  }
+
+  % Subsubsection
+  \setsubsubsecheadstyle{%
+    \normalsize\bfseries\color{MidnightBlue}
+  }
+}
+
+\chapterstyle{mystyle}
 
 \captionsetup{
   font=small
@@ -92,53 +128,12 @@
 
 \setlist[enumerate]{
   label=(\alph*),
-  leftmargin=1.5em,
-  % itemsep=0.5\baselineskip,
-  % topsep=0.5\baselineskip
+  leftmargin=2em,
+  topsep=0pt,
+  partopsep=0pt,
+  itemsep=0pt,
+  parsep=0pt,
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TCOLORBOX FRAMED BOXES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\tcbuselibrary{theorems,skins}
-
-\tcbset{
-  textbookbox/.style={
-    breakable,
-%    parbox=false,
-    enhanced,
-    boxrule=1pt,
-    arc=2mm,
-    fonttitle=\normalsize\bfseries,
-    colback=white,
-    left=0.2em,
-    right=0.2em,
-    top=1em,
-    bottom=0.5em,
-    before skip=1em,
-    after skip=1em,
-    colframe=black,
-    coltitle=black,
-    before upper app={\nonzeroparskip},
-    attach boxed title to top left={
-      xshift=4mm,
-      yshift=-\tcboxedtitleheight/2
-    },
-    boxed title style={
-      colback=white,
-      colframe=black,
-      boxrule=1pt,
-    }
-  }
-}
-
-% \newtcolorbox{keyconceptbox}{
-%   textbookbox,
-%   title={\emojifont\symbol{"1F511}}\enspace \MakeUppercase{Key Concept},
-%   colframe=DarkCyan,
-%   colback=DarkCyan!5
-% }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % HEADER AND FOOTER
@@ -170,6 +165,49 @@
 \aliaspagestyle{plain}{chapterstyle}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TCOLORBOX FRAMED BOXES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tcbuselibrary{theorems,skins}
+
+\tcbset{
+  textbookbox/.style={
+    breakable,
+    %    parbox=false,
+    enhanced,
+    boxrule=1pt,
+    arc=2mm,
+    fonttitle=\normalsize\bfseries,
+    left=0.5em,
+    right=0.5em,
+    top=1.5em,
+    bottom=0.5em,
+    before skip=1em,
+    after skip=1em,
+    colback=white,
+    colframe=black,
+    coltitle=black,
+    before upper app={\nonzeroparskip},
+    attach boxed title to top left={
+      xshift=4mm,
+      yshift=-\tcboxedtitleheight/2
+    },
+    boxed title style={
+      colback=white,
+      colframe=black,
+      boxrule=1pt,
+    }
+  }
+}
+
+% \newtcolorbox{keyconceptbox}{
+  %   textbookbox,
+  %   title={\emojifont\symbol{"1F511}}\enspace \MakeUppercase{Key Concept},
+  %   colframe=DarkCyan,
+  %   colback=DarkCyan!5
+  % }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CUSTOM ENVIRONMENTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -182,6 +220,18 @@
   \begin{tcolorbox}[
       textbookbox,
       title=\textbf{Postulate \thepostulate},
+      colback=teal!5,
+      colframe=teal,
+      coltitle=white,
+      boxed title style={
+        colback=teal,
+        colframe=teal,
+        boxrule=1pt,
+        top=2pt,
+        bottom=2pt,
+        left=4pt,
+        right=4pt,
+      }
     ]
   }
   {
@@ -196,11 +246,24 @@
   \begin{tcolorbox}[
       textbookbox,
       title=\textbf{Example \theexample},
+      colback=violet!5,
+      colframe=violet,
+      coltitle=white,
+      boxed title style={
+        colback=violet,
+        colframe=violet,
+        boxrule=1pt,
+        top=4pt,
+        bottom=2pt,
+        left=4pt,
+        right=4pt,
+      }
     ]
-  }
-  {
-\end{tcolorbox}}
+}
+{
+  \end{tcolorbox}
+}
 
 \newenvironment{solution}
-{\par\noindent\textbf{Solution}\par\noindent\ignorespaces}
+{\par\noindent\textbf{Solution}\ignorespaces}
 {\par}
