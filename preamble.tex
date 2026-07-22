@@ -131,7 +131,7 @@ Extension=.ttf
   leftmargin=2em,
   topsep=0pt,
   partopsep=0pt,
-  itemsep=0pt,
+  itemsep=\parskip,
   parsep=0pt,
 }
 
@@ -146,14 +146,18 @@ Extension=.ttf
 \makeheadrule{textbook}{\textwidth}{0pt}
 \makeevenfoot{textbook}{}{}{}
 \makeoddfoot{textbook}{}{}{}
+
 \makeevenhead{textbook}
-{\headerfont\thepage}
-{}
 {\headerfont\leftmark}
+{}
+{\headerfont\thepage}
+
+
 \makeoddhead{textbook}
 {\headerfont\rightmark}
 {}
 {\headerfont\thepage}
+
 \pagestyle{textbook}
 \makepagestyle{chapterstyle}
 \makeevenhead{chapterstyle}{}{}{}
