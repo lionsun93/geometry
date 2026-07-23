@@ -1,0 +1,31 @@
+% Line spacing
+\linespread{1.4}
+
+% Paragraph spacing
+\setlength{\parindent}{0pt}
+\nonzeroparskip
+
+% Display math spacing
+\setlength{\abovedisplayskip}{1pt}
+\setlength{\belowdisplayskip}{1pt}
+
+\captionsetup{
+  font=small
+}
+
+\setlist[itemize]{
+  label=\textbullet,
+  leftmargin=*,
+  % itemsep=0.5em,
+  % topsep=0.5em,
+  % nosep,
+}
+
+\setlist[enumerate]{
+  label=(\alph*),
+  leftmargin=2em,
+  topsep=0pt,
+  partopsep=0pt,
+  itemsep=\parskip,
+  parsep=0pt,
+}

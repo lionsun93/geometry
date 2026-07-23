@@ -1,0 +1,26 @@
+\setsecnumdepth{section}
+
+\makechapterstyle{mystyle}{%
+  % Chapter
+  \renewcommand{\chapnamefont}{\Huge\bfseries\color{MidnightBlue}}
+  \renewcommand{\chapnumfont}{\Huge\bfseries\color{MidnightBlue}}
+  \renewcommand{\chaptitlefont}{\Huge\bfseries\color{MidnightBlue}}
+
+  % Section
+  \setsecheadstyle{%
+    \Large\bfseries\color{MidnightBlue}
+  }
+
+  % Subsection
+  \setsubsecheadstyle{%
+    \large\bfseries\color{MidnightBlue}
+    \MakeUppercase
+  }
+
+  % Subsubsection
+  \setsubsubsecheadstyle{%
+    \normalsize\bfseries\color{MidnightBlue}
+  }
+}
+
+\chapterstyle{mystyle}

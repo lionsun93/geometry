@@ -1,0 +1,31 @@
+\tcbuselibrary{theorems,skins}
+
+\tcbset{
+  textbookbox/.style={
+    breakable,
+    %    parbox=false,
+    enhanced,
+    boxrule=1pt,
+    arc=2mm,
+    fonttitle=\normalsize\bfseries,
+    left=0.5em,
+    right=0.5em,
+    top=1.5em,
+    bottom=0.5em,
+    before skip=1em,
+    after skip=1em,
+    colback=white,
+    colframe=black,
+    coltitle=black,
+    before upper app={\nonzeroparskip},
+    attach boxed title to top left={
+      xshift=4mm,
+      yshift=-\tcboxedtitleheight/2
+    },
+    boxed title style={
+      colback=white,
+      colframe=black,
+      boxrule=1pt,
+    }
+  }
+}

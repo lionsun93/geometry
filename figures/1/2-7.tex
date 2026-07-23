@@ -49,7 +49,7 @@
 }
 
 \begin{document}
-\begin{tikzpicture}[> =Latex]
+\begin{tikzpicture}[>=Latex]
   \tikzset{
     dimline/.style={
       arrows={Bar[length=0pt,width=20pt]}-{Bar[length=0pt,width=20pt]}
@@ -59,25 +59,18 @@
     },
   }
   \coordinate (a) at (0,0);
-  \coordinate (b) at (90pt,0);
-  \coordinate (m) at ($(a)!0.5!(b)$);
+  \coordinate (b) at (50pt,0);
+  \coordinate (c) at ($(a)+(0,-35pt)$);
+  \coordinate (d) at ($(b)+(0,-35pt)$);
 
-  \draw[thick] (a) node[below] {$A$} --(b) node[below] {$B$}
-  node[midway,above left] {$M$}
-  node[pos=0.25,color=red] {|}
-  node[pos=0.75,color=red] {|};
+  \draw[thick] (a)--(b) node[color=red,midway] {|};
+  \draw[thick] (c)--(d) node[color=red,midway] {|};
 
-  \fill[] (a) circle (2pt);
-  \fill[] (b) circle (2pt);
-  \fill[color=blue] (m) circle (2pt);
+  \fill[] (a) circle (2pt) node[below] {$A$};
+  \fill[] (b) circle (2pt) node[below] {$B$};
+  \fill[] (c) circle (2pt) node[below] {$C$};
+  \fill[] (d) circle (2pt) node[below] {$D$};
 
-  \coordinate (c) at ($(m)+(20pt,17pt)$);
-  \fill[color=blue] (c) circle (2pt) node[below right=-3pt] {$C$};
-
-  \coordinate (d) at ($(c)!1.8!(m)$);
-  \fill[color=blue] (d) circle (2pt) node[below right=-3pt] {$D$};
-
-  \draw[draw=blue,thick, <->] ($(c)!-0.4!(d)$) -- ($(c)!1.4!(d)$);
 \end{tikzpicture}
 
 \end{document}

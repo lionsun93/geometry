@@ -60,24 +60,15 @@
   }
   \coordinate (a) at (0,0);
   \coordinate (b) at (90pt,0);
-  \coordinate (m) at ($(a)!0.5!(b)$);
 
   \draw[thick] (a) node[below] {$A$} --(b) node[below] {$B$}
-  node[midway,above left] {$M$}
+  node[midway,below,color=blue] {$M$}
   node[pos=0.25,color=red] {|}
   node[pos=0.75,color=red] {|};
 
   \fill[] (a) circle (2pt);
   \fill[] (b) circle (2pt);
-  \fill[color=blue] (m) circle (2pt);
-
-  \coordinate (c) at ($(m)+(20pt,17pt)$);
-  \fill[color=blue] (c) circle (2pt) node[below right=-3pt] {$C$};
-
-  \coordinate (d) at ($(c)!1.8!(m)$);
-  \fill[color=blue] (d) circle (2pt) node[below right=-3pt] {$D$};
-
-  \draw[draw=blue,thick, <->] ($(c)!-0.4!(d)$) -- ($(c)!1.4!(d)$);
+  \fill[color=blue] ($(a)!0.5!(b)$) circle (2pt);
 \end{tikzpicture}
 
 \end{document}
