@@ -52,14 +52,26 @@
 \begin{tikzpicture}[>=Latex]
   \tikzset{
     dimline/.style={
-      arrows={Bar[length=0pt,width=20pt]}-{Bar[length=0pt,width=20pt]}
+      arrows={Bar[length=0pt,width=14pt]}-{Bar[length=0pt,width=14pt]}
     },
     dot ends/.style={
       {Circle[length=2pt]}-{Circle[length=2pt]}
     },
+    %    every path/.style={thick},
+    % every node/.style={font=\large}
   }
+\draw[draw=green!50!black,fill=green!10, name path=plane] (0,0)--++(0,60pt)--++(40pt,30pt)--++(0,-60pt)--++(-40pt,-30pt)--cycle;
+\node[] at (34pt,76pt) {$\symbf{M}$};
 
+\coordinate (A) at (-25pt,45pt);
+\coordinate (B) at (65pt,45pt);
+\coordinate (C) at ($(A)!0.55!(B)$);
+\path[name path=line] (A)--(B);
+\path[name intersections={of=line and plane, by={D,E}}];
 
+\draw[thick, <-] (A)--(D);
+\draw[thick, dashed] (D)--(C);
+\draw[thick, ->] (C)--(B) node[above] {$\ell$};
 \end{tikzpicture}
 
 \end{document}

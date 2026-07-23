@@ -3,10 +3,9 @@
   a4paper,
   twoside,
   openright,
-  fleqn
 ]{memoir}
 
-\input{preamble}
+\input{preamble/preamble}
 
 \begin{document}
 
@@ -148,7 +147,7 @@ used here to define the terms below.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\textwidth]{figures/1/1-5-1.pdf}
+  \includegraphics[width=0.3\textwidth]{figures/1/1-5.pdf}
   \caption*{line \(\overleftrightarrow{AB}\)}
 \end{figure}
 
@@ -161,7 +160,7 @@ Note that \(\overline{AB}\) can also be named \(\overline{BA}\).
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\textwidth]{figures/1/1-5.pdf}
+  \includegraphics[width=0.3\textwidth]{figures/1/1-6.pdf}
   \caption*{segment \(\overline{AB}\) or \(\overline{BA}\)}
 \end{figure}
 
@@ -175,7 +174,7 @@ different rays.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth]{figures/1/1-6.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-7.pdf}
   \caption*{rays $\overrightarrow{AB}$ and $\overrightarrow{BA}$}
 \end{figure}
 
@@ -186,7 +185,7 @@ are opposite rays.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth]{figures/1/1-7.pdf}
+  \includegraphics[width=0.35\textwidth]{figures/1/1-8.pdf}
   \caption*{opposite rays \(\overrightarrow{CA}\) and \(\overrightarrow{CB}\)}
 \end{figure}
 
@@ -199,7 +198,7 @@ same plane.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{figures/1/1-8.pdf}
+    \includegraphics[width=0.35\textwidth]{figures/1/1-9.pdf}
   \end{figure}
 
   \begin{enumerate}
@@ -237,13 +236,13 @@ the figures have in common. Some examples of intersections are shown below.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\textwidth]{figures/1/1-9.pdf}
+  \includegraphics[width=0.3\textwidth]{figures/1/1-10.pdf}
   \caption*{The intersection of two different lines is a point.}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\textwidth]{figures/1/1-10.pdf}
+  \includegraphics[width=0.3\textwidth]{figures/1/1-11.pdf}
   \caption*{The intersection of two different planes is a line.}
 \end{figure}
 
@@ -261,15 +260,15 @@ the figures have in common. Some examples of intersections are shown below.
     \begin{enumerate}
       \item The line \(\ell\) is in the plane \(\symbf{M}\).
 
-        \includegraphics[width=0.3\textwidth]{figures/1/1-11.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-12.pdf}
 
       \item The line \(\ell\) does not intersect the plane \(\symbf{M}\).
 
-        \includegraphics[width=0.3\textwidth]{figures/1/1-12.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-13.pdf}
 
       \item The line \(\ell\) intersects the plane \(\symbf{M}\) at a point.
 
-        \includegraphics[width=0.3\textwidth]{figures/1/1-13.pdf}
+        \includegraphics[width=0.3\textwidth]{figures/1/1-14.pdf}
     \end{enumerate}
   \end{solution}
 \end{example}
@@ -290,18 +289,18 @@ the figures have in common. Some examples of intersections are shown below.
 
     step 3 Draw the line of intersection.
 
-    \begin{figure}[H]
-      \includegraphics[width=0.4\textwidth]{figures/1/1-14.pdf}
-    \end{figure}
+    %    \begin{figure}[H]
+    \includegraphics[width=0.35\textwidth]{figures/1/1-15.pdf}
+    %    \end{figure}
   \end{solution}
 \end{example}
 
 \section{Use Segments and Congruence}
 
-\textbf{Postulate}: In Geometry, a rule that is accepted without
+\textcolor{blue}{Postulate} In Geometry, a rule that is accepted without
 proof is called a postulate or axiom.
 
-\textbf{Theorem}: A rule that can be proved is called a theorem.
+\textcolor{blue}{Theorem} A rule that can be proved is called a theorem.
 
 \begin{postulate}
 
@@ -314,7 +313,7 @@ proof is called a postulate or axiom.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{figures/1/2-1.pdf}
+    \includegraphics[width=0.4\textwidth]{figures/1/2-1.pdf}
   \end{figure}
 
   The \textbf{distance} between points \(A\) and \(B\),
@@ -323,7 +322,7 @@ proof is called a postulate or axiom.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{figures/1/2-2.pdf}
+    \includegraphics[width=0.4\textwidth]{figures/1/2-2.pdf}
   \end{figure}
 \end{postulate}
 
@@ -334,21 +333,30 @@ is also called the \textit{length} of \(\overline{AB}\).
 
 When three points are collinear, you can say
 that one point is \textbf{between} the other two.
-
-\makebox[\textwidth][c]{%
-  \begin{minipage}[t]{0.35\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{figures/1/2-3.pdf}
-
-    {\small Point \(B\) is between points \(A\) and \(C\).}
-  \end{minipage}\hspace{0.05\textwidth}
-  \begin{minipage}[t]{0.35\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{figures/1/2-4.pdf}
-
-    {\small Point \(E\) is not between points \(D\) and \(F\).}
-  \end{minipage}
-}
+%\makebox[\textwidth][c]{%
+%  \begin{minipage}[t]{0.35\textwidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{figures/1/2-3.pdf}
+%
+%    {\small Point \(B\) is between points \(A\) and \(C\).}
+%  \end{minipage}\hspace{0.05\textwidth}
+%  \begin{minipage}[t]{0.35\textwidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{figures/1/2-4.pdf}
+%
+%    {\small Point \(E\) is not between points \(D\) and \(F\).}
+%  \end{minipage}
+%}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figures/1/2-3.pdf}
+  \caption*{Point \(B\) is between points \(A\) and \(C\).}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figures/1/2-4.pdf}
+  \caption*{Point \(E\) is not between points \(D\) and \(F\).}
+\end{figure}
 
 \begin{postulate}
   \textcolor{teal}{\textbf{Segment Addition Postulate}}
@@ -575,11 +583,9 @@ of the endpoints.
 If \(A(x_1, y_1)\) and \(B(x_2, y_2)\) are points in a
 coordinate plane, then the midpoint \(M\)
 \(\overline{AB}\) has coordinates
-
-\makebox[\textwidth][c]{
-  \(\displaystyle\left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right)\)
-}
-
+\[
+  \left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right)
+\]
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.4\textwidth]{figures/1/3-5.png}

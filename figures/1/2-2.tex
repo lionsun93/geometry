@@ -52,12 +52,26 @@
 \begin{tikzpicture}[>=Latex]
   \tikzset{
     dimline/.style={
-      arrows={Bar[length=0pt,width=20pt]}-{Bar[length=0pt,width=20pt]}
+      arrows={Bar[length=0pt,width=14pt]}-{Bar[length=0pt,width=14pt]}
     },
     dot ends/.style={
       {Circle[length=2pt]}-{Circle[length=2pt]}
     },
+    %    every path/.style={thick},
+    % every node/.style={font=\large}
   }
+\coordinate (a) at (0,0);
+\coordinate (b) at (90pt,0);
+\draw[thick, <->] ($(a)!-0.3!(b)$)--($(a)!1.3!(b)$)
+node[midway, below=18pt] {$AB=|x_2-x_1|$}
+node[midway, above, color=red] {$AB$};
+
+\draw[draw=red, draw opacity=0.5, ultra thick] (a)--(b);
+
+\fill[] (a) circle (2pt) node[below, name=x1] {$x_1$}
+node[above, name=anode, color=blue] {$A$};
+\fill[] (b) circle (2pt) node[below, name=x2] {$x_2$}
+node[above, name=bnode, color=blue] {$B$};
 
 
 \end{tikzpicture}

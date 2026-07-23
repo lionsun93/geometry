@@ -26,5 +26,6 @@
 *.synctex.gz
 *workspace
 *sublime*
+*.txss2
 
 build/
